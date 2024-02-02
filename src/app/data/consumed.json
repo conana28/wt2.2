@@ -1,0 +1,5117 @@
+[{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8a6b"
+  },
+  "consume": "2021-05-25",
+  "country": "France",
+  "rack": "LF",
+  "shelf": "5",
+  "vintage": "2015",
+  "wineText": "Raveneau Chablis Clos",
+  "wineId": "4400",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce879c"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8a6c"
+  },
+  "consume": "2020-07-09",
+  "country": "France",
+  "rack": "BR",
+  "shelf": "3",
+  "vintage": "2003",
+  "wineText": "Château Duhart-Milon Pauillac",
+  "wineId": "1770",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8689"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8a6d"
+  },
+  "consume": "2020-06-22",
+  "country": "New Zealand",
+  "rack": "GF",
+  "shelf": "Top",
+  "vintage": "2007",
+  "wineText": "Sacred Hill  Helmsman",
+  "wineId": "4520",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce87a8"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8a6e"
+  },
+  "consume": "2021-09-25",
+  "country": "France",
+  "rack": "Garage left",
+  "shelf": "Mid",
+  "vintage": "2015",
+  "wineText": "Chateau Castera  Chateau Castera ",
+  "wineId": "1620",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce867a"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8a6f"
+  },
+  "consume": "2021-08-14",
+  "cost": "114.99",
+  "country": "France",
+  "rack": "Garage ",
+  "vintage": "1990",
+  "wineText": "Marc Bredif Grande Annee",
+  "wineId": "3870",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8767"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8a70"
+  },
+  "consume": "2020-08-25",
+  "country": "Australia",
+  "rack": "GF",
+  "shelf": "3",
+  "vintage": "2015",
+  "wineText": "Moss Wood Chardonnay",
+  "wineId": "3970",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8771"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8a71"
+  },
+  "consume": "2021-01-16",
+  "country": "France",
+  "rack": "Garage",
+  "shelf": "Bottom",
+  "vintage": "2008",
+  "wineText": "Pol Rojer  Vintage - Blanc de Blanc",
+  "wineId": "4250",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce878d"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8a72"
+  },
+  "consume": "2021-09-22",
+  "country": "New Zealand",
+  "rack": "Garage",
+  "shelf": "BR - F&P",
+  "vintage": "2019",
+  "wineText": "Elephant Hill Sea Viognier",
+  "wineId": "3000",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8704"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8a73"
+  },
+  "consume": "2021-07-23",
+  "country": "New Zealand",
+  "rack": "Garage ",
+  "vintage": "2013",
+  "wineText": "Kidnapper Cliffs (Te Awa) Cabernet Sauvignon/Merlot ",
+  "wineId": "3580",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8741"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8a74"
+  },
+  "consume": "2022-05-10",
+  "country": "New Zealand",
+  "rack": "GB",
+  "shelf": "Mid Upper",
+  "vintage": "2018",
+  "wineText": "Felton Road Wines Block 2 Chardonnay ",
+  "wineId": "3140",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8714"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8a75"
+  },
+  "consume": "2021-09-28",
+  "cost": "29.99",
+  "country": "Australia",
+  "rack": "Garage right",
+  "shelf": "Right",
+  "vintage": "2013",
+  "wineText": "Wynns Coonawarra Estate Black Label Shiraz",
+  "wineId": "5370",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce87fd"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8a76"
+  },
+  "consume": "2020-07-06",
+  "country": "New Zealand",
+  "rack": "BR",
+  "shelf": "F&P",
+  "vintage": "2017",
+  "wineText": "Tony Bish Heartwood",
+  "wineId": "4960",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce87d4"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8a77"
+  },
+  "consume": "2021-04-14",
+  "country": "New Zealand",
+  "rack": "BR",
+  "shelf": "F&P",
+  "vintage": "2017",
+  "wineText": "Tony Bish Golden Egg",
+  "wineId": "4950",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce87d3"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8a78"
+  },
+  "consume": "2022-02-01",
+  "country": "New Zealand",
+  "rack": "Black fridge",
+  "shelf": "11",
+  "vintage": "2019",
+  "wineText": "Misha's Vineyard Dress circle Pinot Gris",
+  "wineId": "3920",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce876c"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8a79"
+  },
+  "consume": "2022-05-01",
+  "country": "Australia",
+  "rack": "Garage left",
+  "shelf": "11",
+  "vintage": "2014",
+  "wineText": "A-A1",
+  "wineId": "1000",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce863a"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8a7a"
+  },
+  "consume": "2021-06-14",
+  "cost": "25",
+  "country": "New Zealand",
+  "rack": "GB",
+  "shelf": "Right upper",
+  "vintage": "2017",
+  "wineText": "Torlesse Pinot Noir",
+  "wineId": "4980",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce87d6"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8a7b"
+  },
+  "consume": "2020-08-12",
+  "country": "Italy",
+  "rack": "Garage1",
+  "vintage": "2013",
+  "wineText": "Agricola Querciabella  Chianti Classico ",
+  "wineId": "1010",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce863d"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8a7c"
+  },
+  "consume": "2021-01-16",
+  "country": "France",
+  "rack": "GF",
+  "shelf": "5",
+  "vintage": "1",
+  "wineText": "Krug Non Vintage",
+  "wineId": "3611",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8747"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8a7d"
+  },
+  "consume": "2020-08-21",
+  "country": "France",
+  "rack": "Garage",
+  "shelf": "Bottom",
+  "vintage": "2008",
+  "wineText": "Pol Rojer  Vintage - Blanc de Blanc",
+  "wineId": "4250",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce878d"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8a7e"
+  },
+  "consume": "2020-11-10",
+  "country": "France",
+  "rack": "GF",
+  "shelf": "1",
+  "vintage": "2014",
+  "wineText": "Vincent Dauvissat (René & Vincent)  Chablis 1er Cru La Forest",
+  "wineId": "5270",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce87f3"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8a7f"
+  },
+  "consume": "2021-09-20",
+  "country": "New Zealand",
+  "rack": "GF",
+  "vintage": "2015",
+  "wineText": "De La Terre Reserve Viognier",
+  "wineId": "2340",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce86c2"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8a80"
+  },
+  "consume": "2021-06-01",
+  "cost": "35",
+  "country": "New Zealand",
+  "rack": "?",
+  "vintage": "2017",
+  "wineText": "Pegasus Bay Riesling - Bel Canto",
+  "wineId": "4160",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8784"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8a81"
+  },
+  "consume": "2021-10-10",
+  "country": "New Zealand",
+  "rack": "Garage left",
+  "shelf": "Top",
+  "vintage": "2017",
+  "wineText": "Askerne - 375ml Late Harvest Gewurztraminer",
+  "wineId": "1190",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce864f"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8a82"
+  },
+  "consume": "2020-10-13",
+  "country": "New Zealand",
+  "rack": "GF",
+  "vintage": "2015",
+  "wineText": "Kumeu River Hunting Hill Chardonnay",
+  "wineId": "3620",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8748"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8a83"
+  },
+  "consume": "2021-08-01",
+  "country": "Italy",
+  "rack": "LF",
+  "shelf": "6",
+  "vintage": "2004",
+  "wineText": "Felsina Berardenga - Rancia Chainti Classico",
+  "wineId": "3120",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8712"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8a84"
+  },
+  "consume": "2022-04-27",
+  "cost": "120",
+  "country": "France",
+  "rack": "GF",
+  "shelf": "Bottom",
+  "vintage": "2012",
+  "wineText": "Pol Rojer Brut Rose Vintage",
+  "wineId": "4270",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce878f"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8a85"
+  },
+  "consume": "2020-11-29",
+  "country": "Spain",
+  "rack": "Garage",
+  "vintage": "2010",
+  "wineText": "Finca Nueva Reserva",
+  "wineId": "3180",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8718"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8a86"
+  },
+  "consume": "2021-10-21",
+  "country": "France",
+  "rack": "Black fridge",
+  "vintage": "2020",
+  "wineText": "Novellum Chardonnay",
+  "wineId": "4080",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce877c"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8a87"
+  },
+  "consume": "2021-05-16",
+  "country": "New Zealand",
+  "rack": "??",
+  "vintage": "2017",
+  "wineText": "Tony Bish Heartwood",
+  "wineId": "4960",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce87d4"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8a88"
+  },
+  "consume": "2021-10-05",
+  "country": "Australia",
+  "rack": "Garage right",
+  "vintage": "2018",
+  "wineText": "Ring bolt Margaret River Cabernet Sauvignon ",
+  "wineId": "4430",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce879f"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8a89"
+  },
+  "consume": "2020-12-20",
+  "country": "New Zealand",
+  "rack": "Garage",
+  "vintage": "2014",
+  "wineText": "Rock Ferry Pinot Noir",
+  "wineId": "4470",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce87a3"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8a8a"
+  },
+  "consume": "2021-04-02",
+  "country": "New Zealand",
+  "rack": "GF",
+  "vintage": "2013",
+  "wineText": "Sacred Hill Riflemans Chardonnay ",
+  "wineId": "4510",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce87a7"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8a8b"
+  },
+  "consume": "2021-02-17",
+  "country": "France",
+  "rack": "Garage",
+  "vintage": "2010",
+  "wineText": "Clos du Caillou Les Quartz",
+  "wineId": "2210",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce86b5"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8a8c"
+  },
+  "consume": "2021-11-08",
+  "country": "New Zealand",
+  "rack": "GS3",
+  "vintage": "2014",
+  "wineText": "Sileni The Peak Syrah",
+  "wineId": "4670",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce87b7"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8a8d"
+  },
+  "consume": "2022-04-27",
+  "country": "New Zealand",
+  "rack": "Garage",
+  "shelf": "Right",
+  "vintage": "2017",
+  "wineText": "Te Kairanga Pinot Noir - John Martin",
+  "wineId": "4860",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce87ca"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8a8e"
+  },
+  "consume": "2022-04-26",
+  "cost": "89",
+  "country": "France",
+  "rack": "Black fridge",
+  "vintage": "2012",
+  "wineText": "Piper Heidsieck - Vintage",
+  "wineId": "3660",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8751"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8a8f"
+  },
+  "consume": "2020-06-27",
+  "country": "France",
+  "rack": "LF",
+  "vintage": "2011",
+  "wineText": "Domaine des Comtes Lafon  Meursault 1er Cru Goute d'Or",
+  "wineId": "2570",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce86d9"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8a90"
+  },
+  "consume": "2020-11-23",
+  "country": "New Zealand",
+  "rack": "Garage",
+  "vintage": "2019",
+  "wineText": "Whitehaven Greg Sauvignon Blanc",
+  "wineId": "5350",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce87fb"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8a91"
+  },
+  "consume": "2020-08-12",
+  "country": "New Zealand",
+  "rack": "Garage",
+  "vintage": "2016",
+  "wineText": "Alchemy Chardonnay",
+  "wineId": "1070",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8643"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8a92"
+  },
+  "consume": "2022-03-09",
+  "country": "New Zealand",
+  "rack": "Garage",
+  "vintage": "2018",
+  "wineText": "Kumeu River Rays Road Chardonnay",
+  "wineId": "3623",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce874b"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8a93"
+  },
+  "consume": "2020-11-07",
+  "country": "New Zealand",
+  "rack": "Garage",
+  "vintage": "2015",
+  "wineText": "Felton Road Wines Riesling",
+  "wineId": "3150",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8715"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8a94"
+  },
+  "consume": "2020-09-21",
+  "country": "New Zealand",
+  "rack": "BR",
+  "shelf": "F&P",
+  "vintage": "2016",
+  "wineText": "Vidal  Chardonnay - Hawkes Bay Legacy",
+  "wineId": "5160",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce87e8"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8a95"
+  },
+  "consume": "2021-07-28",
+  "country": "New Zealand",
+  "rack": "GF",
+  "shelf": "5",
+  "vintage": "2014",
+  "wineText": "Church Road Chardonnay - Tom",
+  "wineId": "2130",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce86ad"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8a96"
+  },
+  "consume": "2021-03-22",
+  "country": "New Zealand",
+  "rack": "GF",
+  "vintage": "2016",
+  "wineText": "Alpha Domus Chardonnay",
+  "wineId": "1080",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8644"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8a97"
+  },
+  "consume": "2021-01-16",
+  "country": "Germany",
+  "rack": "LF",
+  "shelf": "11",
+  "vintage": "2007",
+  "wineText": "Donhoff Riesling Neiderhauser Hermannshohle GG",
+  "wineId": "2910",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce86fb"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8a98"
+  },
+  "consume": "2021-01-02",
+  "country": "New Zealand",
+  "rack": "BR",
+  "shelf": "F&P",
+  "vintage": "2016",
+  "wineText": "Vidal  Chardonnay - Hawkes Bay Legacy",
+  "wineId": "5160",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce87e8"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8a99"
+  },
+  "consume": "2020-07-28",
+  "country": "France",
+  "rack": "GF",
+  "shelf": "Top",
+  "vintage": "2012",
+  "wineText": "Chartron Puligny Montrachet 1er Cru - Clos du Cailleret",
+  "wineId": "1550",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8673"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8a9a"
+  },
+  "consume": "2021-08-29",
+  "country": "France",
+  "rack": "BF",
+  "vintage": "2005",
+  "wineText": "Château D'Escurac Medoc",
+  "wineId": "1690",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8681"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8a9b"
+  },
+  "consume": "2021-01-16",
+  "country": "Italy",
+  "rack": "LF",
+  "shelf": "4",
+  "vintage": "2001",
+  "wineText": "Tenuta Dell Ornellaia Ornellaia",
+  "wineId": "4870",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce87cb"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8a9c"
+  },
+  "consume": "2022-04-26",
+  "cost": "89",
+  "country": "France",
+  "rack": "Black fridge",
+  "vintage": "2012",
+  "wineText": "Piper Heidsieck - Vintage",
+  "wineId": "3660",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8751"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8a9d"
+  },
+  "consume": "2021-08-20",
+  "country": "New Zealand",
+  "rack": "Back Room",
+  "vintage": "2015",
+  "wineText": "Greywacke Pinot Noir",
+  "wineId": "3300",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8725"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8a9e"
+  },
+  "consume": "2021-10-27",
+  "country": "Spain",
+  "rack": "Garage ",
+  "vintage": "2012",
+  "wineText": "Alvaro Palacios Priorat - Gratallops",
+  "wineId": "1100",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8646"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8a9f"
+  },
+  "consume": "2020-11-28",
+  "country": "New Zealand",
+  "rack": "Garage",
+  "shelf": "Right",
+  "vintage": "2017",
+  "wineText": "Te Kairanga Pinot Noir - John Martin",
+  "wineId": "4860",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce87ca"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8aa0"
+  },
+  "consume": "2021-03-14",
+  "country": "New Zealand",
+  "rack": "Garage",
+  "shelf": "Back Right",
+  "vintage": "2019",
+  "wineText": "Elephant Hill Sea Viognier",
+  "wineId": "3000",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8704"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8aa1"
+  },
+  "consume": "2021-10-24",
+  "country": "Spain",
+  "rack": "Garage ",
+  "vintage": "2012",
+  "wineText": "Alvaro Palacios Priorat - Gratallops",
+  "wineId": "1100",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8646"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8aa2"
+  },
+  "consume": "2022-04-26",
+  "country": "New Zealand",
+  "rack": "GB",
+  "shelf": "Right lower",
+  "vintage": "2018",
+  "wineText": "Smith & Sheth Pinot Noir Kaarau",
+  "wineId": "4690",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce87b9"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8aa3"
+  },
+  "consume": "2021-08-02",
+  "cost": "39.8",
+  "country": "New Zealand",
+  "rack": "Garage back left",
+  "vintage": "2019",
+  "wineText": "Villa Maria Chardonnay Ihumatao Vineyard",
+  "wineId": "5240",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce87f0"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8aa4"
+  },
+  "consume": "2022-05-10",
+  "country": "Italy",
+  "rack": "Garage",
+  "vintage": "2012",
+  "wineText": "Siro Pacenti Brunello di Montalcino Vecchie Vigne ",
+  "wineId": "4680",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce87b8"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8aa5"
+  },
+  "consume": "2020-06-26",
+  "country": "France",
+  "rack": "GF",
+  "shelf": "1",
+  "vintage": "2014",
+  "wineText": "Vincent Dauvissat (René & Vincent)  Chablis 1er Cru La Forest",
+  "wineId": "5270",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce87f3"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8aa6"
+  },
+  "consume": "2021-10-03",
+  "country": "New Zealand",
+  "rack": "Garage left",
+  "vintage": "2018",
+  "wineText": "Decibel Wines Testify",
+  "wineId": "2350",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce86c3"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8aa7"
+  },
+  "consume": "2021-11-13",
+  "country": "France",
+  "rack": "LF",
+  "shelf": "8",
+  "vintage": "2013",
+  "wineText": "Domaine Henri Boillot  Puligny-Montrachet 1er Cru Clos de la Mouchère",
+  "wineId": "2710",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce86e7"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8aa8"
+  },
+  "consume": "2021-02-06",
+  "country": "New Zealand",
+  "rack": "GF",
+  "vintage": "2013",
+  "wineText": "Kumeu River Hunting Hill Chardonnay",
+  "wineId": "3620",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8748"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8aa9"
+  },
+  "consume": "2020-11-20",
+  "country": "New Zealand",
+  "rack": "GF",
+  "vintage": "2016",
+  "wineText": "Trinity Hill Restless Heart - Chardonnay",
+  "wineId": "5100",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce87e2"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8aaa"
+  },
+  "consume": "2021-08-27",
+  "cost": "80",
+  "country": "New Zealand",
+  "rack": "BF",
+  "shelf": "Bottom",
+  "vintage": "2013",
+  "wineText": "Mission Chardonnay - Huchet",
+  "wineId": "3930",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce876d"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8aab"
+  },
+  "consume": "2021-08-31",
+  "cost": "24",
+  "country": "New Zealand",
+  "rack": "Black fridge",
+  "vintage": "2020",
+  "wineText": "Auntsfield Single Vineyard Sauvignon Blanc",
+  "wineId": "1230",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8653"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8aac"
+  },
+  "consume": "2021-11-04",
+  "country": "New Zealand",
+  "rack": "Black fridge",
+  "vintage": "2020",
+  "wineText": "Rapaura Reserve Chardonnay",
+  "wineId": "4380",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce879a"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8aad"
+  },
+  "consume": "2020-06-20",
+  "country": "France",
+  "rack": "LF",
+  "vintage": "2009",
+  "wineText": "Raveneau Chablis - Montee de Tonnerre",
+  "wineId": "4390",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce879b"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8aae"
+  },
+  "consume": "2021-03-14",
+  "country": "Australia",
+  "rack": "Garage",
+  "shelf": "Right",
+  "vintage": "2015",
+  "wineText": "Wynns Coonawarra Estate Black Label Cabernet Sauvignon",
+  "wineId": "5360",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce87fc"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8aaf"
+  },
+  "consume": "2021-03-30",
+  "country": "New Zealand",
+  "rack": "GF",
+  "vintage": "2018",
+  "wineText": "Easthope Chardonnay - Skeetfield",
+  "wineId": "2970",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8701"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8ab0"
+  },
+  "consume": "2022-05-08",
+  "country": "New Zealand",
+  "rack": "Back Room",
+  "vintage": "2015",
+  "wineText": "Greywacke Pinot Noir",
+  "wineId": "3300",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8725"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8ab1"
+  },
+  "consume": "2022-05-20",
+  "cost": "29.99",
+  "country": "Spain",
+  "rack": "GSR",
+  "vintage": "2014",
+  "wineText": "Valenciso - Rioja Laderas de Cabama",
+  "wineId": "3670",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8752"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8ab2"
+  },
+  "consume": "2021-12-01",
+  "cost": "32.57",
+  "country": "New Zealand",
+  "rack": "Garage ",
+  "vintage": "2019",
+  "wineText": "Pyramid Valley Chardonnay North Canterbury",
+  "wineId": "4340",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8796"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8ab3"
+  },
+  "consume": "2021-10-08",
+  "country": "New Zealand",
+  "rack": "Garage",
+  "vintage": "2020",
+  "wineText": "Craggy Range Te Muna Sauvignon Blanc",
+  "wineId": "2300",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce86be"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8ab4"
+  },
+  "consume": "2022-04-27",
+  "country": "New Zealand",
+  "rack": "Garage left",
+  "shelf": "Top",
+  "vintage": "2011",
+  "wineText": "Seifried Sweet Agnes-  Riesling - 375ml",
+  "wineId": "4600",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce87b0"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8ab5"
+  },
+  "consume": "2020-08-27",
+  "country": "France",
+  "rack": "GF",
+  "vintage": "2016",
+  "wineText": "Domaine Fond Croze Cuvee Cofidence",
+  "wineId": "2600",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce86dc"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8ab6"
+  },
+  "consume": "2020-08-31",
+  "country": "New Zealand",
+  "rack": "BR",
+  "shelf": "F&P",
+  "vintage": "2016",
+  "wineText": "Te Awa Chardonnay - Single Estate",
+  "wineId": "4810",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce87c5"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8ab7"
+  },
+  "consume": "2021-06-01",
+  "country": "Italy",
+  "rack": "Garage right",
+  "shelf": "Upper",
+  "vintage": "2011",
+  "wineText": "Tenuta Delle Terre Nere Calderara Sottana",
+  "wineId": "4880",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce87cc"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8ab8"
+  },
+  "consume": "2020-10-11",
+  "country": "France",
+  "rack": "BR",
+  "shelf": "F&P",
+  "vintage": "1",
+  "wineText": "Louis Roderer Non Vintage",
+  "wineId": "3800",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8760"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8ab9"
+  },
+  "consume": "2021-09-18",
+  "country": "New Zealand",
+  "rack": "GF",
+  "vintage": "2014",
+  "wineText": "Neudorf Home Block Moutere Chardonnay",
+  "wineId": "4030",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8777"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8aba"
+  },
+  "consume": "2021-09-23",
+  "cost": "25",
+  "country": "New Zealand",
+  "rack": "Garage left",
+  "shelf": "Top",
+  "vintage": "2017",
+  "wineText": "Torlesse Sauvignon Blanc - Shadowy Kim 375ml",
+  "wineId": "4970",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce87d5"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8abb"
+  },
+  "consume": "2020-12-23",
+  "country": "New Zealand",
+  "rack": "GF",
+  "vintage": "2015",
+  "wineText": "Tony Bish Skeetfield ",
+  "wineId": "4940",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce87d2"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8abc"
+  },
+  "consume": "2021-05-07",
+  "country": "New Zealand",
+  "rack": "GF",
+  "vintage": "2016",
+  "wineText": "Elephant Hill Chardonnay - Reserve",
+  "wineId": "2980",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8702"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8abd"
+  },
+  "consume": "2022-03-12",
+  "country": "New Zealand",
+  "rack": "Garage left",
+  "shelf": "Upper",
+  "vintage": "2013",
+  "wineText": "Doctors Flat Pinot Noir",
+  "wineId": "2360",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce86c4"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8abe"
+  },
+  "consume": "2021-09-16",
+  "country": "New Zealand",
+  "rack": "GB",
+  "vintage": "2017",
+  "wineText": "Dunnolly Pinot Noir",
+  "wineId": "2960",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8700"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8abf"
+  },
+  "consume": "2020-09-05",
+  "country": "New Zealand",
+  "rack": "Garage",
+  "shelf": "Left",
+  "vintage": "2016",
+  "wineText": "Palliser Noble Riesling - 375ml",
+  "wineId": "4100",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce877e"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8ac0"
+  },
+  "consume": "2021-06-01",
+  "country": "Italy",
+  "rack": "Garage",
+  "shelf": "Upper",
+  "vintage": "2011",
+  "wineText": "Agricola Querciabella  Chianti Classico Riserva",
+  "wineId": "1020",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce863e"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8ac1"
+  },
+  "consume": "2022-05-10",
+  "cost": "29.99",
+  "country": "New Zealand",
+  "rack": "Garage left",
+  "vintage": "2011",
+  "wineText": "Seifred Gruner Vetliner",
+  "wineId": "4580",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce87ae"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8ac2"
+  },
+  "consume": "2022-06-01",
+  "cost": "32.99",
+  "country": "USA",
+  "rack": "Garage back",
+  "vintage": "2019",
+  "wineText": "Diora - La Splendeur Du Soleil Monterey Chardonnay",
+  "wineId": "5610",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8818"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8ac3"
+  },
+  "consume": "2022-04-05",
+  "country": "Australia",
+  "rack": "GS",
+  "vintage": "2018",
+  "wineText": "A-Aa1",
+  "wineId": "1000",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce863a"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8ac4"
+  },
+  "consume": "2022-06-14",
+  "cost": "42",
+  "country": "New Zealand",
+  "rack": "GB3",
+  "vintage": "2019",
+  "wineText": "Greystone  - Chardonnay",
+  "wineId": "3291",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8724"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8ac5"
+  },
+  "consume": "2021-09-29",
+  "cost": "29.99",
+  "country": "Australia",
+  "rack": "Garage right",
+  "shelf": "Right",
+  "vintage": "2013",
+  "wineText": "Wynns Coonawarra Estate Black Label Shiraz",
+  "wineId": "5370",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce87fd"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8ac6"
+  },
+  "consume": "2022-07-12",
+  "cost": "30.82",
+  "country": "New Zealand",
+  "rack": "Black fridge",
+  "vintage": "2021",
+  "wineText": "Saint Clair Sauvignon Blanc Reserve Wairau",
+  "wineId": "4540",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce87aa"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8ac7"
+  },
+  "consume": "2021-10-01",
+  "country": "New Zealand",
+  "rack": "GF",
+  "vintage": "2016",
+  "wineText": "Trinity Hills Restless Heart Chardonnay",
+  "wineId": "5110",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce87e3"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8ac8"
+  },
+  "consume": "2021-09-07",
+  "country": "New Zealand",
+  "rack": "GB",
+  "shelf": "Right",
+  "vintage": "2015",
+  "wineText": "Vidal  Chardonnay - Hawkes Bay Legacy",
+  "wineId": "5160",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce87e8"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8ac9"
+  },
+  "consume": "2022-05-06",
+  "cost": "199",
+  "country": "Australia",
+  "rack": "GS",
+  "shelf": "12",
+  "vintage": "2099",
+  "wineText": "A - Aa12xyz",
+  "wineId": "1000",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce863a"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8aca"
+  },
+  "consume": "2021-09-25",
+  "cost": "35",
+  "country": "France",
+  "rack": "Lounge",
+  "vintage": "2017",
+  "wineText": "Chateau  Rieussec Carmes de Rieussec - 375 ml",
+  "wineId": "1560",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8674"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8acb"
+  },
+  "consume": "2020-12-06",
+  "country": "New Zealand",
+  "rack": "BR",
+  "shelf": "Bottom",
+  "vintage": "2015",
+  "wineText": "Ata Rangi Chardonnay - Craighall",
+  "wineId": "1200",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8650"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8acc"
+  },
+  "consume": "2020-09-27",
+  "country": "New Zealand",
+  "rack": "GF",
+  "vintage": "2013",
+  "wineText": "Esk Valley Winemakers Reserve Chardonnay",
+  "wineId": "3100",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8710"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8acd"
+  },
+  "consume": "2022-04-02",
+  "country": "Spain",
+  "rack": "GS",
+  "shelf": "L",
+  "vintage": "2012",
+  "wineText": "Alvaro Palacios - Priorat - Gratallops",
+  "wineId": "1100",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8646"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8ace"
+  },
+  "consume": "2020-12-16",
+  "country": "New Zealand",
+  "rack": "BR",
+  "shelf": "Bottom",
+  "vintage": "2016",
+  "wineText": "Te Awa Chardonnay - Single Estate",
+  "wineId": "4810",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce87c5"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8acf"
+  },
+  "consume": "2021-09-04",
+  "country": "France",
+  "rack": "GF",
+  "shelf": "5",
+  "vintage": "2012",
+  "wineText": "Fevre Chablis - Bougros",
+  "wineId": "3160",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8716"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8ad0"
+  },
+  "consume": "2020-07-24",
+  "country": "New Zealand",
+  "rack": "Garage",
+  "vintage": "2018",
+  "wineText": "Clearview Estate Chardonnay - Reserve",
+  "wineId": "2160",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce86b0"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8ad1"
+  },
+  "consume": "2022-06-09",
+  "country": "France",
+  "rack": "LF",
+  "shelf": "3",
+  "vintage": "2015",
+  "wineText": "Vincent Dauvissat (René & Vincent)  Chablis 1er Cru La Forest",
+  "wineId": "5270",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce87f3"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8ad2"
+  },
+  "consume": "2020-08-16",
+  "country": "France",
+  "rack": "Garage",
+  "vintage": "2017",
+  "wineText": "Vincent Dauvissat (René & Vincent)  Chablis ",
+  "wineId": "5260",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce87f2"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8ad3"
+  },
+  "consume": "2021-09-25",
+  "cost": "25.01",
+  "country": "France",
+  "rack": "Lounge",
+  "vintage": "2018",
+  "wineText": "Chateau VilleFrance Chateau VilleFrance - 375ml",
+  "wineId": "2120",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce86ac"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8ad4"
+  },
+  "consume": "2021-05-24",
+  "cost": "65",
+  "country": "New Zealand",
+  "rack": "GB",
+  "vintage": "2015",
+  "wineText": "Pegasus Bay Virtuoso Chardonnay",
+  "wineId": "4140",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8782"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8ad5"
+  },
+  "consume": "2020-10-03",
+  "country": "France",
+  "rack": "Garage",
+  "vintage": "1",
+  "wineText": "Pol Rojer  Brut Réserve Non Vintage",
+  "wineId": "4260",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce878e"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8ad6"
+  },
+  "consume": "2021-03-26",
+  "country": "New Zealand",
+  "rack": "BR",
+  "shelf": "F&P",
+  "vintage": "2011",
+  "wineText": "Seifried Aotea Méthode Traditionnelle",
+  "wineId": "4610",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce87b1"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8ad7"
+  },
+  "consume": "2022-01-23",
+  "cost": "92.86",
+  "country": "USA",
+  "rack": "LF",
+  "vintage": "2017",
+  "wineText": "Kosta Browne One Sixteen Russian River Valley Chardonnay",
+  "wineId": "5440",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8804"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8ad8"
+  },
+  "consume": "2021-06-22",
+  "country": "New Zealand",
+  "rack": "GB",
+  "shelf": "3",
+  "vintage": "2017",
+  "wineText": "Clearview Estate Chardonnay - Reserve",
+  "wineId": "2160",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce86b0"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8ad9"
+  },
+  "consume": "2020-12-01",
+  "country": "New Zealand",
+  "rack": "Garage",
+  "vintage": "2015",
+  "wineText": "Giesen Chardonnay - The Fuder",
+  "wineId": "3200",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce871a"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8ada"
+  },
+  "consume": "2022-06-08",
+  "cost": "29.99",
+  "country": "New Zealand",
+  "rack": "Black fridge",
+  "vintage": "2020",
+  "wineText": "Church Road - Grand Reserve Chardonnay",
+  "wineId": "2140",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce86ae"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8adb"
+  },
+  "consume": "2020-09-28",
+  "country": "New Zealand",
+  "rack": "BR",
+  "shelf": "F&P",
+  "vintage": "2017",
+  "wineText": "Giesen The Brothers Chardonnay",
+  "wineId": "3220",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce871c"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8adc"
+  },
+  "consume": "2020-11-22",
+  "country": "New Zealand",
+  "rack": "GF",
+  "vintage": "2013",
+  "wineText": "Kumeu River Mate's Vineyard Chardonnay",
+  "wineId": "3621",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8749"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8add"
+  },
+  "consume": "2021-01-31",
+  "country": "France",
+  "rack": "Garage",
+  "shelf": "Left",
+  "vintage": "2015",
+  "wineText": "Chateau Castera  Chateau Castera ",
+  "wineId": "1620",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce867a"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8ade"
+  },
+  "consume": "2021-09-27",
+  "country": "France",
+  "rack": "GF ",
+  "shelf": "5",
+  "vintage": "2018",
+  "wineText": "Vincent Dauvissat (René & Vincent)  Chablis ",
+  "wineId": "5260",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce87f2"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8adf"
+  },
+  "consume": "2021-09-13",
+  "country": "New Zealand",
+  "rack": "BR",
+  "shelf": "Bottom",
+  "vintage": "2015",
+  "wineText": "Ata Rangi Chardonnay - Craighall",
+  "wineId": "1200",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8650"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8ae0"
+  },
+  "consume": "2020-06-27",
+  "country": "France",
+  "rack": "LF",
+  "shelf": "13",
+  "vintage": "2010",
+  "wineText": "Pierre Peters Chetillons",
+  "wineId": "4220",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce878a"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8ae1"
+  },
+  "consume": "2021-05-01",
+  "country": "New Zealand",
+  "rack": "GF",
+  "vintage": "2016",
+  "wineText": "Smith & Sheth Chardonnay - Howell",
+  "wineId": "4700",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce87ba"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8ae2"
+  },
+  "consume": "2021-03-09",
+  "country": "New Zealand",
+  "rack": "GF",
+  "vintage": "2016",
+  "wineText": "Pegasus Bay Virtuoso Chardonnay",
+  "wineId": "4140",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8782"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8ae3"
+  },
+  "consume": "2020-06-05",
+  "country": "New Zealand",
+  "rack": "DF",
+  "vintage": "2016",
+  "wineText": "Vavasour Anna's Vineyard Awatere Valley",
+  "wineId": "5140",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce87e6"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8ae4"
+  },
+  "consume": "2021-10-10",
+  "country": "France",
+  "rack": "BR",
+  "shelf": "6",
+  "vintage": "2007",
+  "wineText": "Le Vieux Donjon Chateauneuf Du Pape",
+  "wineId": "3720",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8758"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8ae5"
+  },
+  "consume": "2022-05-17",
+  "cost": "37.38",
+  "country": "New Zealand",
+  "rack": "GB",
+  "shelf": "3",
+  "vintage": "2019",
+  "wineText": "Clearview Estate Chardonnay - Reserve",
+  "wineId": "2160",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce86b0"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8ae6"
+  },
+  "consume": "2022-05-06",
+  "cost": "8.99",
+  "country": "Australia",
+  "rack": "GS",
+  "shelf": "11",
+  "vintage": "2020",
+  "wineText": "A-Aa1",
+  "wineId": "1000",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce863a"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8ae7"
+  },
+  "consume": "2022-05-02",
+  "cost": "8.99",
+  "country": "Australia",
+  "rack": "GS",
+  "shelf": "11",
+  "vintage": "2020",
+  "wineText": "A-Aa1",
+  "wineId": "1000",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce863a"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8ae8"
+  },
+  "consume": "2020-07-25",
+  "country": "France",
+  "rack": "Lounge",
+  "vintage": "2015",
+  "wineText": "Vincent Dauvissat (René & Vincent)  Chablis ",
+  "wineId": "5260",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce87f2"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8ae9"
+  },
+  "consume": "2021-10-13",
+  "country": "New Zealand",
+  "rack": "GB",
+  "shelf": "Right upper",
+  "vintage": "2016",
+  "wineText": "Terrace Edge Pinot Noir",
+  "wineId": "4930",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce87d1"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8aea"
+  },
+  "consume": "2020-09-17",
+  "country": "New Zealand",
+  "rack": "Garage",
+  "vintage": "2016",
+  "wineText": "Askerne Gewurztraminer",
+  "wineId": "1180",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce864e"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8aeb"
+  },
+  "consume": "2021-08-05",
+  "country": "New Zealand",
+  "rack": "GB",
+  "shelf": "Right",
+  "vintage": "2016",
+  "wineText": "Isabel Chardonnay Isabel Chardonnay",
+  "wineId": "3400",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce872f"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8aec"
+  },
+  "consume": "2021-09-14",
+  "cost": "29.79",
+  "country": "New Zealand",
+  "rack": "Garage right",
+  "shelf": "Box by fridge",
+  "vintage": "2019",
+  "wineText": "Church Road Grand Reserve Chardonnay",
+  "wineId": "2140",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce86ae"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8aed"
+  },
+  "consume": "2021-06-01",
+  "country": "Germany",
+  "rack": "GF",
+  "shelf": "Top",
+  "vintage": "2018",
+  "wineText": "Donhoff Kreuznacher Hahlenberg Riesling Trocken",
+  "wineId": "2900",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce86fa"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8aee"
+  },
+  "consume": "2020-08-16",
+  "country": "France",
+  "rack": "Garage",
+  "vintage": "2016",
+  "wineText": "Joseph Drouhin Givry",
+  "wineId": "3540",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce873d"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8aef"
+  },
+  "consume": "2020-10-10",
+  "country": "France",
+  "rack": "BR",
+  "vintage": "2007",
+  "wineText": "Clos Des Papes Châteauneuf-du-Pape",
+  "wineId": "2200",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce86b4"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8af0"
+  },
+  "consume": "2020-09-02",
+  "country": "New Zealand",
+  "rack": "BR",
+  "shelf": "F&P",
+  "vintage": "2019",
+  "wineText": "Nautilus Sauvignon Blanc",
+  "wineId": "4020",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8776"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8af1"
+  },
+  "consume": "2021-08-11",
+  "country": "Spain",
+  "rack": "LF",
+  "shelf": "4",
+  "vintage": "2004",
+  "wineText": "La Rioja Alta Vina Arana Reserva ",
+  "wineId": "3690",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8755"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8af2"
+  },
+  "consume": "2021-12-04",
+  "cost": "25.1",
+  "country": "Portugal",
+  "rack": "Garage",
+  "vintage": "2020",
+  "wineText": "Casa Santos Lima Alvarinho",
+  "wineId": "1480",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce866c"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8af3"
+  },
+  "consume": "2022-05-24",
+  "country": "New Zealand",
+  "rack": "GB",
+  "shelf": "3",
+  "vintage": "2017",
+  "wineText": "Clearview Estate Chardonnay - Reserve",
+  "wineId": "2160",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce86b0"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8af4"
+  },
+  "consume": "2020-07-08",
+  "country": "New Zealand",
+  "rack": "Garage",
+  "vintage": "2016",
+  "wineText": "Rod McDonald Quarter Acre Chardonnay",
+  "wineId": "4480",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce87a4"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8af5"
+  },
+  "consume": "2021-12-04",
+  "cost": "38.67",
+  "country": "Portugal",
+  "rack": "Garage ",
+  "vintage": "2016",
+  "wineText": "Monte de Cacada Touriga Nationale",
+  "wineId": "3960",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8770"
+  },
+  "occassion": "Greek Bunch",
+  "shelf": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8af6"
+  },
+  "consume": "2021-05-15",
+  "country": "Germany",
+  "rack": "Garage",
+  "vintage": "2018",
+  "wineText": "Donhoff Kreuznacher Hahlenberg Riesling Trocken",
+  "wineId": "2900",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce86fa"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8af7"
+  },
+  "consume": "2021-03-18",
+  "country": "New Zealand",
+  "rack": "Garage",
+  "vintage": "2019",
+  "wineText": "Church Road McDonald Series Chardonnay",
+  "wineId": "2150",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce86af"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8af8"
+  },
+  "consume": "2022-05-26",
+  "cost": "56.93",
+  "country": "New Zealand",
+  "rack": "GB",
+  "shelf": "3",
+  "vintage": "2017",
+  "wineText": "Villa Maria  Chardonnay - Keltern",
+  "wineId": "5220",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce87ee"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8af9"
+  },
+  "consume": "2021-08-12",
+  "cost": "1",
+  "country": "New Zealand",
+  "rack": "BR",
+  "shelf": "F&P",
+  "vintage": "2017",
+  "wineText": "Tony Bish Golden Egg",
+  "wineId": "4950",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce87d3"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8afa"
+  },
+  "consume": "2020-12-05",
+  "country": "New Zealand",
+  "rack": "N/a",
+  "vintage": "1",
+  "wineText": "Mumm Mumm Marlborough",
+  "wineId": "4010",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8775"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8afb"
+  },
+  "consume": "2021-10-08",
+  "country": "Italy",
+  "rack": "Garage ",
+  "vintage": "2016",
+  "wineText": "Santa Cristina Chianti Superiore",
+  "wineId": "4560",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce87ac"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8afc"
+  },
+  "consume": "2020-12-23",
+  "country": "France",
+  "rack": "GF",
+  "vintage": "2016",
+  "wineText": "Hubert Lamy Saint Aubin 1er Cru En Remilly",
+  "wineId": "3360",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce872b"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8afd"
+  },
+  "consume": "2020-09-18",
+  "country": "New Zealand",
+  "rack": "Garage",
+  "vintage": "2016",
+  "wineText": "Alchemy Chardonnay",
+  "wineId": "1070",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8643"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8afe"
+  },
+  "consume": "2020-08-20",
+  "country": "France",
+  "rack": "BF",
+  "shelf": "Top",
+  "vintage": "2011",
+  "wineText": "Domaine Henri Boillot  Puligny-Montrachet 1er Cru Les Combettes",
+  "wineId": "2720",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce86e8"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8aff"
+  },
+  "consume": "2021-03-16",
+  "country": "Australia",
+  "rack": "GF",
+  "vintage": "2014",
+  "wineText": "Leheny Gibson Chardonnay",
+  "wineId": "3750",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce875b"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8b00"
+  },
+  "consume": "2021-04-02",
+  "cost": "78.57",
+  "country": "New Zealand",
+  "rack": "GB",
+  "shelf": "3",
+  "vintage": "2019",
+  "wineText": "Neudorf Home Block Moutere Chardonnay",
+  "wineId": "4030",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8777"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8b01"
+  },
+  "consume": "2020-09-05",
+  "country": "France",
+  "rack": "LF",
+  "shelf": "3",
+  "vintage": "2002",
+  "wineText": "Château Léoville Barton St. Julien",
+  "wineId": "1900",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8696"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8b02"
+  },
+  "consume": "2021-09-09",
+  "country": "France",
+  "rack": "GF",
+  "shelf": "5",
+  "vintage": "2018",
+  "wineText": "Brocard Chablis 1er Cru - Montee de Tonnerre",
+  "wineId": "1410",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8665"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8b03"
+  },
+  "consume": "2021-01-16",
+  "country": "France",
+  "rack": "LF",
+  "shelf": "7",
+  "vintage": "2001",
+  "wineText": "Paul Jaboulet Hermitage - La Chapelle",
+  "wineId": "4130",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8781"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8b04"
+  },
+  "consume": "2022-05-10",
+  "country": "Italy",
+  "rack": "BR",
+  "shelf": "9",
+  "vintage": "2008",
+  "wineText": "Produttori del Barbaresco  Barbaresco Riserva Montestefano",
+  "wineId": "4300",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8792"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8b05"
+  },
+  "consume": "2020-10-21",
+  "country": "New Zealand",
+  "rack": "Garage",
+  "vintage": "2019",
+  "wineText": "Kumeu River Legacy Series Chardonnay",
+  "wineId": "3660",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8751"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8b06"
+  },
+  "consume": "2021-08-05",
+  "cost": "39",
+  "country": "New Zealand",
+  "rack": "Garage",
+  "shelf": "Box",
+  "vintage": "2002",
+  "wineText": "Seifried Winemakers Collection Nelson Barrique Fermented Chardonnay",
+  "wineId": "4590",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce87af"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8b07"
+  },
+  "consume": "2020-09-29",
+  "country": "New Zealand",
+  "rack": "Garage",
+  "vintage": "2016",
+  "wineText": "Rod McDonald Quarter Acre Chardonnay",
+  "wineId": "4480",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce87a4"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8b08"
+  },
+  "consume": "2021-07-23",
+  "country": "New Zealand",
+  "rack": "Garage",
+  "vintage": "2018",
+  "wineText": "Church Road Grand Reserve Chardonnay",
+  "wineId": "2140",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce86ae"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8b09"
+  },
+  "consume": "2021-11-29",
+  "cost": "29.79",
+  "country": "New Zealand",
+  "rack": "Garage right",
+  "shelf": "Box by fridge",
+  "vintage": "2019",
+  "wineText": "Church Road Grand Reserve Chardonnay",
+  "wineId": "2140",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce86ae"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8b0a"
+  },
+  "consume": "2021-08-23",
+  "country": "New Zealand",
+  "rack": "GF",
+  "vintage": "2015",
+  "wineText": "Tony Bish Skeetfield ",
+  "wineId": "4940",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce87d2"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8b0b"
+  },
+  "consume": "2021-04-04",
+  "country": "France",
+  "rack": "Kennards",
+  "shelf": "Own Box",
+  "vintage": "2009",
+  "wineText": "Louis Roderer Cristal",
+  "wineId": "3790",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce875f"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8b0c"
+  },
+  "consume": "2021-05-31",
+  "country": "New Zealand",
+  "rack": "Garage right",
+  "vintage": "2015",
+  "wineText": "Torlesse Chardonnay - Omihi Road",
+  "wineId": "4990",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce87d7"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8b0d"
+  },
+  "consume": "2022-03-07",
+  "cost": "65",
+  "country": "New Zealand",
+  "rack": "GF",
+  "vintage": "2016",
+  "wineText": "Pegasus Bay-Virtuoso Chardonnay",
+  "wineId": "4140",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8782"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8b0e"
+  },
+  "consume": "2022-05-06",
+  "country": "Australia",
+  "rack": "GS",
+  "vintage": "2019",
+  "wineText": "A-Aa1",
+  "wineId": "1000",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce863a"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8b0f"
+  },
+  "consume": "2020-08-03",
+  "country": "Spain",
+  "rack": "Garage",
+  "vintage": "2016",
+  "wineText": "Manda Huevos PARCELA CARRAMAINAS DOBLE YEMA ",
+  "wineId": "3860",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8766"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8b10"
+  },
+  "consume": "2022-05-10",
+  "country": "New Zealand",
+  "rack": "GB",
+  "shelf": "Right upper",
+  "vintage": "2013",
+  "wineText": "Escarpment Kupe",
+  "wineId": "3060",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce870a"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8b11"
+  },
+  "consume": "2021-10-16",
+  "country": "France",
+  "rack": "Kennards",
+  "shelf": "Own Box",
+  "vintage": "2002",
+  "wineText": "Krug Vintage",
+  "wineId": "3610",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8746"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8b12"
+  },
+  "consume": "2021-04-10",
+  "country": "New Zealand",
+  "rack": "tbc",
+  "vintage": "2011",
+  "wineText": "Seifred Gruner Vetliner",
+  "wineId": "4580",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce87ae"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8b13"
+  },
+  "consume": "2020-06-12",
+  "country": "New Zealand",
+  "rack": "GF",
+  "shelf": "2",
+  "vintage": "2015",
+  "wineText": "Elephant Hill Chardonnay - Reserve",
+  "wineId": "2980",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8702"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8b14"
+  },
+  "consume": "2020-09-23",
+  "country": "New Zealand",
+  "rack": "Garage",
+  "vintage": "2017",
+  "wineText": "Two Rivers Clos des Pierres Marlborough Chardonnay ",
+  "wineId": "5130",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce87e5"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8b15"
+  },
+  "consume": "2021-03-04",
+  "country": "New Zealand",
+  "rack": "GF",
+  "vintage": "2015",
+  "wineText": "Giesen The Fuder Clayvin Chardonnay",
+  "wineId": "3230",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce871d"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8b16"
+  },
+  "consume": "2021-05-11",
+  "country": "France",
+  "rack": "LF",
+  "shelf": "8",
+  "vintage": "2015",
+  "wineText": "Domaine Dublere Chassagne Montrachet  1er Cru - Les Chaumees",
+  "wineId": "2590",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce86db"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8b17"
+  },
+  "consume": "2021-01-31",
+  "country": "New Zealand",
+  "rack": "Garage",
+  "vintage": "2020",
+  "wineText": "Craggy Range Te Muna Sauvignon Blanc",
+  "wineId": "2300",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce86be"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8b18"
+  },
+  "consume": "2022-05-01",
+  "cost": "8.99",
+  "country": "Australia",
+  "rack": "GS",
+  "shelf": "11",
+  "vintage": "2020",
+  "wineText": "A-Aa1",
+  "wineId": "1000",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce863a"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8b19"
+  },
+  "consume": "2020-10-03",
+  "country": "Spain",
+  "rack": "BF",
+  "vintage": "1982",
+  "wineText": "Bodegas  Valoria Vina Valoria ",
+  "wineId": "1300",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce865a"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8b1a"
+  },
+  "consume": "2022-04-27",
+  "country": "France",
+  "rack": "LF",
+  "shelf": "13",
+  "vintage": "2010",
+  "wineText": "Albert Mann Pinot Gris Hengst",
+  "wineId": "1040",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8640"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8b1b"
+  },
+  "consume": "2021-05-29",
+  "country": "France",
+  "rack": "LF",
+  "shelf": "8",
+  "vintage": "2012",
+  "wineText": "Fevre Chablis - Les Preuses",
+  "wineId": "3170",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8717"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8b1c"
+  },
+  "consume": "2022-05-10",
+  "country": "France",
+  "rack": "LF",
+  "shelf": "8",
+  "vintage": "2015",
+  "wineText": "Vincent Dauvissat (René & Vincent)  Chablis 1er Cru La Forest",
+  "wineId": "5270",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce87f3"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8b1d"
+  },
+  "consume": "2021-08-18",
+  "country": "New Zealand",
+  "rack": "GF",
+  "vintage": "2013",
+  "wineText": "Sacred Hill Riflemans Chardonnay ",
+  "wineId": "4510",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce87a7"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8b1e"
+  },
+  "consume": "2020-06-26",
+  "country": "France",
+  "rack": "GF",
+  "shelf": "Bottom",
+  "vintage": "2006",
+  "wineText": "Pol Rojer  Vintage",
+  "wineId": "4240",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce878c"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8b1f"
+  },
+  "consume": "2020-10-23",
+  "country": "New Zealand",
+  "rack": "Garage",
+  "vintage": "2019",
+  "wineText": "Elephant Hill Sea Viognier",
+  "wineId": "3000",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8704"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8b20"
+  },
+  "consume": "2021-04-25",
+  "country": "New Zealand",
+  "rack": "GB",
+  "shelf": "Right upper",
+  "vintage": "2012",
+  "wineText": "Greystone The Brothers - Pinot Noir",
+  "wineId": "3280",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8722"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8b21"
+  },
+  "consume": "2020-11-03",
+  "country": "France",
+  "rack": "2014",
+  "shelf": "GF",
+  "vintage": "2014",
+  "wineText": "Seguinot Bordet Chablis - Vaillons",
+  "wineId": "4570",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce87ad"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8b22"
+  },
+  "consume": "2022-04-01",
+  "cost": "26.84",
+  "country": "Spain",
+  "rack": "Garage ",
+  "vintage": "2019",
+  "wineText": "Gota de Mar Rias Baixas",
+  "wineId": "3250",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce871f"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8b23"
+  },
+  "consume": "2021-04-25",
+  "country": "New Zealand",
+  "rack": "GB",
+  "shelf": "Right upper",
+  "vintage": "2014",
+  "wineText": "Escarpment Kupe",
+  "wineId": "3060",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce870a"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8b24"
+  },
+  "consume": "2022-05-30",
+  "cost": "27",
+  "country": "New Zealand",
+  "rack": "Black fridge",
+  "vintage": "2020",
+  "wineText": "Mount Brown - Grand Reserve Chardonnay",
+  "wineId": "3050",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8709"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8b25"
+  },
+  "consume": "2021-01-08",
+  "country": "New Zealand",
+  "rack": "BR",
+  "shelf": "F&P",
+  "vintage": "2017",
+  "wineText": "Tony Bish Golden Egg",
+  "wineId": "4950",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce87d3"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8b26"
+  },
+  "consume": "2020-12-13",
+  "country": "Italy",
+  "rack": "BR",
+  "vintage": "2009",
+  "wineText": "Le Macchiole Paleo",
+  "wineId": "3710",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8757"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8b27"
+  },
+  "consume": "2020-12-18",
+  "country": "France",
+  "rack": "Garage",
+  "vintage": "2015",
+  "wineText": "Chateau Castera  Chateau Castera ",
+  "wineId": "1620",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce867a"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8b28"
+  },
+  "consume": "2021-10-10",
+  "cost": "25",
+  "country": "New Zealand",
+  "rack": "Garage right",
+  "vintage": "2014",
+  "wineText": "Torlesse Gewurtztraminer - Omihi Road",
+  "wineId": "5000",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce87d8"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8b29"
+  },
+  "consume": "2020-08-02",
+  "country": "New Zealand",
+  "rack": "BR",
+  "shelf": "F&P",
+  "vintage": "2015",
+  "wineText": "Giesen Chardonnay - The Fuder",
+  "wineId": "3200",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce871a"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8b2a"
+  },
+  "consume": "2022-04-27",
+  "cost": "39.99",
+  "country": "New Zealand",
+  "rack": "Garage",
+  "shelf": "Box - Legacy",
+  "vintage": "2018",
+  "wineText": "Vidal  Legacy Gimblett Gravels Syrah",
+  "wineId": "5180",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce87ea"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8b2b"
+  },
+  "consume": "2020-11-07",
+  "country": "New Zealand",
+  "rack": "Garage",
+  "vintage": "2014",
+  "wineText": "Trinity Hill Gimblet gravels - Cabernet",
+  "wineId": "5050",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce87dd"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8b2c"
+  },
+  "consume": "2020-06-09",
+  "country": "Spain",
+  "rack": "Garage",
+  "vintage": "2010",
+  "wineText": "Finca Nueva Reserva",
+  "wineId": "3180",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8718"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8b2d"
+  },
+  "consume": "2020-10-15",
+  "country": "New Zealand",
+  "rack": "Garage",
+  "shelf": "Right",
+  "vintage": "2019",
+  "wineText": "Vidal  Chardonnay - Hawkes Bay Legacy",
+  "wineId": "5160",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce87e8"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630200bc3fccf1ba01ce8b2e"
+  },
+  "consume": "2021-04-04",
+  "country": "Germany",
+  "rack": "LF",
+  "shelf": "10",
+  "vintage": "2007",
+  "wineText": "Josmeyer Hengst - Riesling ",
+  "wineId": "3550",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce873e"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "63029860bc1c3f38bcb2ebd8"
+  },
+  "vintage": "2014",
+  "rack": "GSL",
+  "shelf": "",
+  "cost": 0,
+  "wineText": "Pikes-Traditionale Riesling",
+  "wineId": "18888",
+  "wine": {
+    "$oid": "6302983bbc1c3f38bcb2ebcb"
+  },
+  "consume": {
+    "$date": "2022-08-20T12:00:00.000Z"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "6302988dbc1c3f38bcb2ebe5"
+  },
+  "vintage": "2017",
+  "rack": "GSL",
+  "cost": 15,
+  "wineText": "Forest - Botrytised Riesling - 375ml",
+  "wineId": "3650",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8750"
+  },
+  "consume": {
+    "$date": "2022-08-20T12:00:00.000Z"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630298a0bc1c3f38bcb2ebee"
+  },
+  "vintage": "2018",
+  "rack": "GSR",
+  "cost": 15,
+  "wineText": "Rocca delle Macie - Rubizzo Toscana IGT",
+  "wineId": "3640",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce874f"
+  },
+  "consume": {
+    "$date": "2022-08-18T12:00:00.000Z"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630ab5bfebc3ec0016aec04b"
+  },
+  "vintage": "2015",
+  "rack": "Garage left",
+  "shelf": "Mid",
+  "wineText": "Chateau Castera  Chateau Castera ",
+  "wineId": "1620",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce867a"
+  },
+  "consume": {
+    "$date": "2022-08-27T00:00:00.000Z"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630ab6daebc3ec0016aec069"
+  },
+  "vintage": "2019",
+  "rack": "GSR",
+  "shelf": "",
+  "cost": 0,
+  "wineText": "Cielo-Appassionata Veneto",
+  "wineId": "18888",
+  "wine": {
+    "$oid": "630ab6c9ebc3ec0016aec056"
+  },
+  "consume": {
+    "$date": "2022-08-27T00:00:00.000Z"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "630ab758ebc3ec0016aec07b"
+  },
+  "vintage": "2016",
+  "rack": "F&P Fridge",
+  "shelf": "",
+  "cost": 0,
+  "wineText": "Sacred Hill-Riflemans Chardonnay ",
+  "wineId": "18888",
+  "wine": {
+    "$oid": "630ab746ebc3ec0016aec06e"
+  },
+  "consume": {
+    "$date": "2022-08-27T00:00:00.000Z"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "631599aa5bf18e001649f67b"
+  },
+  "vintage": "2021",
+  "rack": "Black fridge",
+  "cost": 25,
+  "wineText": "Redmetal - Albarino",
+  "wineId": "3570",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8740"
+  },
+  "consume": {
+    "$date": "2022-09-04T00:00:00.000Z"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "631720aa7b40c62d0493d64d"
+  },
+  "vintage": "2020",
+  "rack": "Black fridge",
+  "cost": 29.99,
+  "wineText": "Church Road - Grand Reserve Chardonnay",
+  "wineId": "2140",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce86ae"
+  },
+  "consume": {
+    "$date": "2022-08-31T12:00:00.000Z"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "63205b0f0b1250001661cf6d"
+  },
+  "vintage": "2020",
+  "rack": "Garage",
+  "shelf": "",
+  "cost": 20,
+  "wineText": "Hancock & Sons-Reserve Chardonnay",
+  "wineId": "18888",
+  "wine": {
+    "$oid": "6320596a0b1250001661cef4"
+  },
+  "consume": {
+    "$date": "2022-09-09T00:00:00.000Z"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "63205b210b1250001661cf76"
+  },
+  "vintage": "2020",
+  "rack": "Garage",
+  "shelf": "",
+  "cost": 27,
+  "wineText": "Squawking Magpie-Gravels Chardonnay",
+  "wineId": "18888",
+  "wine": {
+    "$oid": "63205a300b1250001661cf26"
+  },
+  "consume": {
+    "$date": "2022-09-12T00:00:00.000Z"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "6322f585f5e2450016395d8e"
+  },
+  "vintage": "2020",
+  "rack": "Garage",
+  "shelf": "",
+  "cost": 26.99,
+  "wineText": "Mount Brown-GRAND RESERVE Chardonnay",
+  "wineId": "18888",
+  "wine": {
+    "$oid": "63205ad50b1250001661cf58"
+  },
+  "consume": {
+    "$date": "2022-09-15T00:00:00.000Z"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "6325784a9380960016c99132"
+  },
+  "vintage": "2020",
+  "rack": "Garage",
+  "shelf": "",
+  "cost": 31.99,
+  "wineText": "Matchbook-The Arsonist Chardonnay",
+  "wineId": "18888",
+  "wine": {
+    "$oid": "632059ba0b1250001661cf18"
+  },
+  "consume": {
+    "$date": "2022-09-17T00:00:00.000Z"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "63282f9d9787da001610deec"
+  },
+  "vintage": "2017",
+  "rack": "GB",
+  "shelf": "Right mid",
+  "wineText": "Lime Hill Pinot Noir",
+  "wineId": "3760",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce875c"
+  },
+  "consume": {
+    "$date": "2022-09-19T00:00:00.000Z"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "632d5ad871c6a10016eab719"
+  },
+  "vintage": "2010",
+  "rack": "GSL",
+  "shelf": "",
+  "cost": 40,
+  "wineText": "Neudorf-Brightwater Riesling",
+  "wineId": "18888",
+  "wine": {
+    "$oid": "632d5ac171c6a10016eab70c"
+  },
+  "consume": {
+    "$date": "2022-09-23T00:00:00.000Z"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "632fb98581c63f001618be7a"
+  },
+  "vintage": "2015",
+  "rack": "GF",
+  "shelf": "",
+  "cost": 0,
+  "wineText": "Kumeu River-Hunting Hill Chardonnay",
+  "wineId": "3620",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8748"
+  },
+  "consume": {
+    "$date": "2022-09-24T00:00:00.000Z"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "632fb9a281c63f001618be83"
+  },
+  "vintage": "2015",
+  "rack": "LF",
+  "shelf": "3",
+  "wineText": "Vincent Dauvissat (René & Vincent)  Chablis 1er Cru La Forest",
+  "wineId": "5270",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce87f3"
+  },
+  "consume": {
+    "$date": "2022-09-24T00:00:00.000Z"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "6333dd493c062c0016786641"
+  },
+  "vintage": "2020",
+  "rack": "Garage",
+  "shelf": "",
+  "cost": 28,
+  "wineText": "Astrolabe-Taihoa Sauvignon Blanc",
+  "wineId": "18888",
+  "wine": {
+    "$oid": "63205aaa0b1250001661cf46"
+  },
+  "consume": {
+    "$date": "2022-09-28T00:00:00.000Z"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "63362487eae1320016ac92c6"
+  },
+  "vintage": "2016",
+  "rack": "Garage",
+  "shelf": "",
+  "cost": 61,
+  "wineText": "Vidals-Chardonnay Joseph Vidal 1888",
+  "wineId": "5190",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce87eb"
+  },
+  "consume": {
+    "$date": "2022-09-30T00:00:00.000Z"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "63450fb36da4050016d99edd"
+  },
+  "vintage": "2017",
+  "rack": "GF",
+  "shelf": "",
+  "cost": 0,
+  "wineText": "Jean Boisset-Meursaul Limozin",
+  "wineId": "18888",
+  "wine": {
+    "$oid": "63450f996da4050016d99ed0"
+  },
+  "consume": {
+    "$date": "2022-10-16T00:00:00.000Z"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "63450fdb6da4050016d99ee6"
+  },
+  "vintage": "2020",
+  "rack": "Garage",
+  "shelf": "",
+  "cost": 20,
+  "wineText": "Hancock & Sons-Reserve Chardonnay",
+  "wineId": "18888",
+  "wine": {
+    "$oid": "6320596a0b1250001661cef4"
+  },
+  "consume": {
+    "$date": "2022-10-06T00:00:00.000Z"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "634667d34b562200161dc589"
+  },
+  "vintage": "2020",
+  "rack": "Garage",
+  "shelf": "",
+  "cost": 20,
+  "wineText": "Hancock & Sons-Reserve Chardonnay",
+  "wineId": "18888",
+  "wine": {
+    "$oid": "6320596a0b1250001661cef4"
+  },
+  "consume": {
+    "$date": "2022-10-12T00:00:00.000Z"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "634e1d03de8a3900258f552b"
+  },
+  "vintage": "2023",
+  "rack": "yyy",
+  "shelf": "",
+  "cost": 0,
+  "wineText": "Test-xxx",
+  "wine": {
+    "$oid": "634b114f3e59160016c6070c"
+  },
+  "consume": {
+    "$date": "2022-11-22T00:00:00.000Z"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "634e1dd0de8a3900258f5536"
+  },
+  "vintage": "2023",
+  "rack": "yyy",
+  "shelf": "",
+  "cost": 0,
+  "wineText": "Test-xxx",
+  "wine": {
+    "$oid": "634b11b43e59160016c60718"
+  },
+  "consume": {
+    "$date": "2022-10-22T00:00:00.000Z"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "634e2225278b8d0025cb227e"
+  },
+  "vintage": "2023",
+  "rack": "yyy",
+  "shelf": "",
+  "cost": 0,
+  "wineText": "Test-xxx",
+  "wine": {
+    "$oid": "634b114f3e59160016c6070c"
+  },
+  "consume": {
+    "$date": "2022-10-22T00:00:00.000Z"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "634e4343abc291001658d2cb"
+  },
+  "vintage": "2016",
+  "rack": "GB",
+  "shelf": "Right",
+  "wineText": "Villa Maria  Chardonnay - Keltern",
+  "wineId": "5220",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce87ee"
+  },
+  "consume": {
+    "$date": "2022-10-17T00:00:00.000Z"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "6358a199c9b5ba0016f96892"
+  },
+  "vintage": "2015",
+  "rack": "LF",
+  "shelf": "7",
+  "wineText": "Vincent Dauvissat (René & Vincent)  Chablis Grand Cru Les Clos",
+  "wineId": "5280",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce87f4"
+  },
+  "consume": {
+    "$date": "2022-10-21T00:00:00.000Z"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "6358a1aac9b5ba0016f9689b"
+  },
+  "vintage": "2016",
+  "rack": "Garage",
+  "shelf": "",
+  "cost": 61,
+  "wineText": "Vidals-Chardonnay Joseph Vidal 1888",
+  "wineId": "5190",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce87eb"
+  },
+  "consume": {
+    "$date": "2022-10-21T00:00:00.000Z"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "6358a242c9b5ba0016f968bf"
+  },
+  "vintage": "2013",
+  "rack": "GF",
+  "shelf": "",
+  "cost": 0,
+  "wineText": "Neudorf-Home Block Moutere Chardonnay",
+  "wineId": "4030",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8777"
+  },
+  "consume": {
+    "$date": "2022-10-22T00:00:00.000Z"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "6358a257c9b5ba0016f968c8"
+  },
+  "vintage": "2017",
+  "rack": "Garage",
+  "shelf": "Right",
+  "wineText": "Te Kairanga Pinot Noir - John Martin",
+  "wineId": "4860",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce87ca"
+  },
+  "consume": {
+    "$date": "2022-10-24T00:00:00.000Z"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "6358a26ec9b5ba0016f968d1"
+  },
+  "vintage": "2019",
+  "rack": "Garage back left",
+  "cost": 39.8,
+  "wineText": "Villa Maria Chardonnay Ihumatao Vineyard",
+  "wineId": "5240",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce87f0"
+  },
+  "consume": {
+    "$date": "2022-10-24T00:00:00.000Z"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "635cc10308cba700259ded11"
+  },
+  "vintage": "2017",
+  "rack": "GB",
+  "shelf": "3",
+  "wineText": "Pegasus Bay Chardonnay",
+  "wineId": "4150",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8783"
+  },
+  "consume": {
+    "$date": "2022-10-22T00:00:00.000Z"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "635f2cd23793b6001615d619"
+  },
+  "vintage": "2017",
+  "rack": "GB",
+  "shelf": "3",
+  "wineText": "Pegasus Bay Chardonnay",
+  "wineId": "4150",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8783"
+  },
+  "consume": {
+    "$date": "2022-10-29T00:00:00.000Z"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "636358ac637a8a0025465abd"
+  },
+  "vintage": "2020",
+  "rack": "Black fridge",
+  "shelf": "",
+  "cost": 0,
+  "wineText": "Jadot-Bourgogne",
+  "wineId": "18888",
+  "wine": {
+    "$oid": "6363588c32f83f0016a54add"
+  },
+  "consume": {
+    "$date": "2022-11-22T00:00:00.000Z"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "63918814da6b9b002a104a98"
+  },
+  "vintage": "2019",
+  "rack": "GB3",
+  "cost": 42,
+  "wineText": "Greystone  - Chardonnay",
+  "wineId": "3291",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8724"
+  },
+  "consume": {
+    "$date": "2022-12-22T00:00:00.000Z"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "639189e5da6b9b002a104aa3"
+  },
+  "vintage": "2020",
+  "rack": "Garage",
+  "shelf": "",
+  "cost": 27,
+  "wineText": "Squawking Magpie-Gravels Chardonnay",
+  "wineId": "18888",
+  "wine": {
+    "$oid": "63205a300b1250001661cf26"
+  },
+  "consume": {
+    "$date": "2022-12-22T00:00:00.000Z"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "6394e849fb582a0029ed230a"
+  },
+  "vintage": "2013",
+  "rack": "GB",
+  "shelf": "Right upper",
+  "wineText": "Bell Hill Pinot Noir",
+  "wineId": "1270",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8657"
+  },
+  "consume": {
+    "$date": "2022-12-11T00:00:00.000Z"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "63a02345f41c29002987de21"
+  },
+  "vintage": "2016",
+  "rack": "Garage ",
+  "shelf": "",
+  "cost": 60,
+  "wineText": "Alpha Domus-The Aviator",
+  "wineId": "18888",
+  "wine": {
+    "$oid": "63a02336f41c29002987de14"
+  },
+  "consume": {
+    "$date": "2022-12-18T00:00:00.000Z"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "63adee0c4f9482002a1f2fb3"
+  },
+  "vintage": "2012",
+  "rack": "Black fridge",
+  "cost": 89,
+  "wineText": "Piper Heidsieck - Vintage",
+  "wineId": "3660",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8751"
+  },
+  "consume": {
+    "$date": "2022-12-29T00:00:00.000Z"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "63adee1f4f9482002a1f2fbc"
+  },
+  "vintage": "2014",
+  "rack": "GF",
+  "shelf": "1",
+  "cost": 117.7,
+  "wineText": "Louis Michel & Fils Chablis - Clos",
+  "wineId": "3780",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce875e"
+  },
+  "consume": {
+    "$date": "2022-12-29T00:00:00.000Z"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "63adee7d4f9482002a1f2fd3"
+  },
+  "vintage": "2008",
+  "rack": "GF",
+  "shelf": "Bottom",
+  "cost": 0,
+  "wineText": "Veuve Cliquot-Vintage",
+  "wineId": "5150",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce87e7"
+  },
+  "consume": {
+    "$date": "2022-12-27T00:00:00.000Z"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "63adee9b4f9482002a1f2fdc"
+  },
+  "vintage": "2017",
+  "rack": "GF",
+  "shelf": "",
+  "cost": 126.47,
+  "wineText": "Tony Bish-Zen Chardonnay",
+  "wine": {
+    "$oid": "6346868f4b562200161dc70c"
+  },
+  "consume": {
+    "$date": "2022-12-27T00:00:00.000Z"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "63adeef8bd65820028f12d55"
+  },
+  "vintage": "2006",
+  "rack": "Garage ",
+  "shelf": "",
+  "cost": 0,
+  "wineText": "Castelnau-Blanc de Blanc Millesime",
+  "wineId": "18888",
+  "wine": {
+    "$oid": "63adeee64f9482002a1f2fe5"
+  },
+  "consume": {
+    "$date": "2022-12-23T00:00:00.000Z"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "63adf848332f8100275f5ace"
+  },
+  "vintage": "2018",
+  "rack": "GF",
+  "shelf": "",
+  "cost": 59.99,
+  "wineText": "Cantina Terlano  - Pinot Bianco Alto Adige Vorberg Riserva ",
+  "wineId": "3600",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8744"
+  },
+  "consume": {
+    "$date": "2022-12-30T00:00:00.000Z"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "63adfc9dce4271002a5495b0"
+  },
+  "vintage": "2009",
+  "rack": "Garage ",
+  "shelf": "ex Kennards",
+  "cost": 0,
+  "wineText": "Cave Yves Cuilleron-Cote Rotie Les Terre Sombres",
+  "wineId": "18888",
+  "wine": {
+    "$oid": "63adfc85ce4271002a5495a3"
+  },
+  "consume": {
+    "$date": "2022-12-29T00:00:00.000Z"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "63b012acd8cc96002aa8c88e"
+  },
+  "vintage": "9999",
+  "rack": "Garage ",
+  "shelf": "",
+  "cost": 80,
+  "wineText": "Pol Roger-Reserve Brut",
+  "wineId": "18888",
+  "wine": {
+    "$oid": "63adf06991d312002a1f826d"
+  },
+  "consume": {
+    "$date": "2022-12-22T00:00:00.000Z"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "63ba5e2e427ef200294185aa"
+  },
+  "vintage": "2018",
+  "rack": "GB",
+  "shelf": "Mid Upper",
+  "cost": 59.99,
+  "wineText": "Te Awanga Estate Trademark Chardonnay",
+  "wineId": "4840",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce87c8"
+  },
+  "consume": {
+    "$date": "2023-01-03T00:00:00.000Z"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "63ba5ec3427ef200294185d0"
+  },
+  "vintage": "2016",
+  "rack": "F&P",
+  "shelf": "",
+  "cost": 0,
+  "wineText": "Neudorf-Home Block Moutere Chardonnay",
+  "wineId": "4030",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8777"
+  },
+  "consume": {
+    "$date": "2023-01-08T00:00:00.000Z"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "63ba5f3c84db1d00298d922e"
+  },
+  "vintage": "2013",
+  "rack": "Garage ",
+  "shelf": "",
+  "cost": 0,
+  "wineText": "Escarpment-Kupe",
+  "wineId": "3060",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce870a"
+  },
+  "consume": {
+    "$date": "2023-01-07T00:00:00.000Z"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "63c0f77374235a002d2b799b"
+  },
+  "vintage": "2005",
+  "rack": "BR",
+  "shelf": "6",
+  "wineText": "Craggy Range Sophia",
+  "wineId": "2290",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce86bd"
+  },
+  "consume": {
+    "$date": "2023-01-23T00:00:00.000Z"
+  },
+  "occassion": "Coravin",
+  "cost": null
+},
+{
+  "_id": {
+    "$oid": "63d1f5e99a4b74002e623f52"
+  },
+  "vintage": "2015",
+  "rack": "GF",
+  "shelf": "",
+  "cost": 0,
+  "wineText": "Domaine Henri Boillot -Puligny-Montrachet 1er Cru Clos de la Mouchère",
+  "wineId": "2710",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce86e7"
+  },
+  "consume": {
+    "$date": "2023-01-24T00:00:00.000Z"
+  },
+  "occassion": "Chrissy"
+},
+{
+  "_id": {
+    "$oid": "63d1f6069a4b74002e623f5f"
+  },
+  "vintage": "2019",
+  "rack": "GF",
+  "cost": 125,
+  "wineText": "Pyramid Valley Chardonnay Lions Tooth",
+  "wineId": "4350",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8797"
+  },
+  "consume": {
+    "$date": "2023-01-23T00:00:00.000Z"
+  },
+  "occassion": "Chrissy",
+  "shelf": ""
+},
+{
+  "_id": {
+    "$oid": "63d1f61a9a4b74002e623f68"
+  },
+  "vintage": "9999",
+  "rack": "F&P",
+  "shelf": "",
+  "cost": 58.22,
+  "wineText": "Lallier-Brut Rose",
+  "wine": {
+    "$oid": "63adef25bd65820028f12d5d"
+  },
+  "consume": {
+    "$date": "2023-01-22T00:00:00.000Z"
+  },
+  "occassion": "Chrissy"
+},
+{
+  "_id": {
+    "$oid": "63d1f819bb60fa002c3476c2"
+  },
+  "vintage": "2010",
+  "rack": "LF",
+  "shelf": "",
+  "cost": 0,
+  "wineText": "Domaine Roulot-Meursault - Tesson Clos de mon Plaisir",
+  "wineId": "2770",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce86ed"
+  },
+  "consume": {
+    "$date": "2022-12-31T00:00:00.000Z"
+  },
+  "occassion": "WA/NG/HD"
+},
+{
+  "_id": {
+    "$oid": "63d1f835bb60fa002c3476cb"
+  },
+  "vintage": "2008",
+  "rack": "Kennards",
+  "shelf": "Own Box",
+  "wineText": "Louis Roderer Cristal",
+  "wineId": "3790",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce875f"
+  },
+  "consume": {
+    "$date": "2022-12-31T00:00:00.000Z"
+  },
+  "occassion": "WA/NG/HD",
+  "cost": null
+},
+{
+  "_id": {
+    "$oid": "63d1f8eabb60fa002c3476dd"
+  },
+  "vintage": "9999",
+  "rack": "F&P",
+  "shelf": "",
+  "cost": 58.22,
+  "wineText": "Lallier-Brut Rose",
+  "wine": {
+    "$oid": "63adef25bd65820028f12d5d"
+  },
+  "consume": {
+    "$date": "2022-12-28T00:00:00.000Z"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "63dab884d51cce002d31607a"
+  },
+  "vintage": "2006",
+  "rack": "Garage ",
+  "shelf": "",
+  "cost": 74.06,
+  "wineText": "Castelnau-Blanc de Blanc Millesime",
+  "wineId": "18888",
+  "wine": {
+    "$oid": "63adeee64f9482002a1f2fe5"
+  },
+  "consume": {
+    "$date": "2023-01-29T00:00:00.000Z"
+  },
+  "occassion": "Chrissy"
+},
+{
+  "_id": {
+    "$oid": "63dab8d1d51cce002d31608e"
+  },
+  "vintage": "2014",
+  "rack": "GF",
+  "shelf": "",
+  "cost": 0,
+  "wineText": "Brodie Estate -Pinot Noir - Reserve",
+  "wineId": "1420",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8666"
+  },
+  "consume": {
+    "$date": "2023-01-28T00:00:00.000Z"
+  },
+  "occassion": "Chrissy"
+},
+{
+  "_id": {
+    "$oid": "63dab95bd51cce002d3160a9"
+  },
+  "vintage": "2021",
+  "rack": "Garage",
+  "shelf": "",
+  "cost": 0,
+  "wineText": "Saint Clair-Sauvignon Blanc Reserve Wairau",
+  "wineId": "4540",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce87aa"
+  },
+  "consume": {
+    "$date": "2023-01-28T00:00:00.000Z"
+  },
+  "occassion": "Chrissy"
+},
+{
+  "_id": {
+    "$oid": "63dab96ed51cce002d3160b2"
+  },
+  "vintage": "2021",
+  "rack": "BF",
+  "shelf": "",
+  "cost": 19.58,
+  "wineText": "Whitehaven-Greg Sauvignon Blanc",
+  "wineId": "5350",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce87fb"
+  },
+  "consume": {
+    "$date": "2023-01-28T00:00:00.000Z"
+  },
+  "occassion": "Chrissy"
+},
+{
+  "_id": {
+    "$oid": "63f9313e38632a3d38e0a55c"
+  },
+  "vintage": "2021",
+  "rack": "Garage",
+  "shelf": "",
+  "cost": 26.26,
+  "wineText": "Quartz Reef-Pinot Gris Central Otago",
+  "wine": {
+    "$oid": "63f9304638632a3d38e0a542"
+  },
+  "consume": {
+    "$date": "2023-02-22T11:00:00.000Z"
+  },
+  "occassion": "CB"
+},
+{
+  "_id": {
+    "$oid": "63fbac7eb7454932806ab76c"
+  },
+  "vintage": "2022",
+  "rack": "Garage",
+  "shelf": "",
+  "cost": 20.52,
+  "wineText": "Elephant Hill-Tempranillo Rose",
+  "wine": {
+    "$oid": "63f9308738632a3d38e0a54e"
+  },
+  "consume": {
+    "$date": "2023-02-25T11:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "63fbb2bbb7454932806ab7e1"
+  },
+  "vintage": "2010",
+  "rack": "GSR",
+  "shelf": "",
+  "cost": null,
+  "wineText": "Jean-Paul Brun-Domaine des Terres Dorees Morgon",
+  "wine": {
+    "$oid": "63fbb292b7454932806ab7d2"
+  },
+  "consume": {
+    "$date": "2023-02-23T11:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "63fe5835c6dff267b49c0e5d"
+  },
+  "vintage": "9999",
+  "rack": "Garage back",
+  "cost": 19.99,
+  "wineText": "Masottina - Collezione 96 Prosecco Brut",
+  "wineId": "3040",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8708"
+  },
+  "consume": {
+    "$date": "2023-02-20T11:00:00.000Z"
+  },
+  "occassion": "CB",
+  "shelf": ""
+},
+{
+  "_id": {
+    "$oid": "63fe58e3c6dff267b49c0e88"
+  },
+  "vintage": "2020",
+  "rack": "Garage",
+  "shelf": "",
+  "cost": 24.34,
+  "wineText": "Bogle-Phantom Chardonnay",
+  "wineId": "1320",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce865c"
+  },
+  "consume": {
+    "$date": "2023-02-27T11:00:00.000Z"
+  },
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "64024d768bfedd3d7ccd85a1"
+  },
+  "vintage": "2015",
+  "rack": "GB",
+  "shelf": "Right",
+  "wineText": "Ata Rangi Chardonnay - Craighall",
+  "wineId": "1200",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8650"
+  },
+  "consume": {
+    "$date": "2023-03-02T11:00:00.000Z"
+  },
+  "cost": null,
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "64044fd18bfedd3d7ccd8995"
+  },
+  "vintage": "2017",
+  "rack": "GB1",
+  "shelf": "",
+  "wineText": "Greystone  Vineyard Ferment Pinot Noir",
+  "wineId": "3290",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8723"
+  },
+  "consume": {
+    "$date": "2023-03-03T11:00:00.000Z"
+  },
+  "cost": null,
+  "occassion": ""
+},
+{
+  "_id": {
+    "$oid": "6406860d2029cc002e84e3e8"
+  },
+  "vintage": "2005",
+  "rack": "GF",
+  "shelf": "5",
+  "wineText": "Tardieu Laurent Cornas",
+  "wineId": "4740",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce87be"
+  },
+  "consume": {
+    "$date": "2023-03-07T00:00:00.000Z"
+  },
+  "__v": 0,
+  "cost": null,
+  "occassion": "Magnum"
+},
+{
+  "_id": {
+    "$oid": "6406861a2029cc002e84e3f1"
+  },
+  "vintage": "2005",
+  "rack": "BR",
+  "shelf": "9",
+  "wineText": "Albino Rocca Vigneto Brich Ronchi",
+  "wineId": "1060",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8642"
+  },
+  "consume": {
+    "$date": "2023-03-07T00:00:00.000Z"
+  },
+  "__v": 0,
+  "cost": null,
+  "occassion": "Magnum"
+},
+{
+  "_id": {
+    "$oid": "640686272029cc002e84e3fa"
+  },
+  "vintage": "2016",
+  "rack": "GF",
+  "shelf": "Top",
+  "cost": 60,
+  "wineText": "Clemens Busch Marienburg Riesling GG",
+  "wineId": "2190",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce86b3"
+  },
+  "consume": {
+    "$date": "2023-03-07T00:00:00.000Z"
+  },
+  "__v": 0,
+  "occassion": "Magnum"
+},
+{
+  "_id": {
+    "$oid": "640686cd2029cc002e84e416"
+  },
+  "vintage": "2015",
+  "rack": "GSL",
+  "shelf": "",
+  "cost": 0,
+  "wineText": "Neudorf-Dry Riesling",
+  "wineId": "18888",
+  "wine": {
+    "$oid": "640686bd2029cc002e84e409"
+  },
+  "consume": {
+    "$date": "2023-03-07T00:00:00.000Z"
+  },
+  "__v": 0,
+  "occassion": "Magnum"
+},
+{
+  "_id": {
+    "$oid": "640d9afe0b38a450d04c7fcc"
+  },
+  "vintage": "2015",
+  "rack": "GF",
+  "shelf": "",
+  "cost": null,
+  "wineText": "Kumeu River-Mate's Vineyard Chardonnay",
+  "wineId": "3621",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8749"
+  },
+  "consume": {
+    "$date": "2023-03-09T11:00:00.000Z"
+  },
+  "occassion": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "640d9b580b38a450d04c7fd9"
+  },
+  "vintage": "2012",
+  "rack": "GF",
+  "shelf": "5",
+  "wineText": "Chartron Puligny Montrachet 1er Cru - Clos du Cailleret",
+  "wineId": "1550",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8673"
+  },
+  "consume": {
+    "$date": "2023-03-10T11:00:00.000Z"
+  },
+  "occassion": "NG/HD",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "640d9b770b38a450d04c7fe4"
+  },
+  "vintage": "9999",
+  "rack": "Garage",
+  "shelf": "",
+  "cost": 97.75,
+  "wineText": "Billecart Salmon-Premier Cru Sous Bois",
+  "wine": {
+    "$oid": "63f9317538632a3d38e0a567"
+  },
+  "consume": {
+    "$date": "2023-03-10T11:00:00.000Z"
+  },
+  "occassion": "NG/HD",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64161242b980065d08806374"
+  },
+  "vintage": "9999",
+  "rack": "Garage",
+  "shelf": "",
+  "cost": 39.99,
+  "wineText": "H.Lanvin & Fils-Brut NV Champagne",
+  "wine": {
+    "$oid": "64161227b980065d0880635b"
+  },
+  "consume": {
+    "$date": "2023-03-16T11:00:00.000Z"
+  },
+  "occassion": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6416127db980065d0880637d"
+  },
+  "vintage": "9999",
+  "rack": "Garage",
+  "shelf": "",
+  "cost": 39.99,
+  "wineText": "H.Lanvin & Fils-Brut NV Champagne",
+  "wine": {
+    "$oid": "64161227b980065d0880635b"
+  },
+  "consume": {
+    "$date": "2023-02-18T11:00:00.000Z"
+  },
+  "occassion": "George Brunch",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6416128eb980065d08806386"
+  },
+  "vintage": "9999",
+  "rack": "Garage",
+  "shelf": "",
+  "cost": 39.99,
+  "wineText": "H.Lanvin & Fils-Brut NV Champagne",
+  "wine": {
+    "$oid": "64161227b980065d0880635b"
+  },
+  "consume": {
+    "$date": "2023-02-18T11:00:00.000Z"
+  },
+  "occassion": "George Brunch",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64161360b980065d0880639b"
+  },
+  "vintage": "2015",
+  "rack": "GF",
+  "wineText": "Kumeu River Mate's Vineyard Chardonnay",
+  "wineId": "3621",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8749"
+  },
+  "consume": {
+    "$date": "2023-03-05T11:00:00.000Z"
+  },
+  "occassion": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6416140db980065d088063b4"
+  },
+  "vintage": "2022",
+  "rack": "Garage",
+  "shelf": "",
+  "cost": 25,
+  "wineText": "Rapaura Springs-Bull Paddock Vineyard Sauvignon",
+  "wine": {
+    "$oid": "641613fbb980065d088063a7"
+  },
+  "consume": {
+    "$date": "2023-03-14T11:00:00.000Z"
+  },
+  "occassion": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "641614b0b980065d088063cd"
+  },
+  "vintage": "2016",
+  "rack": "GF",
+  "shelf": "",
+  "cost": null,
+  "wineText": "Valli-Gibbston Pinot Noir",
+  "wine": {
+    "$oid": "6416149eb980065d088063be"
+  },
+  "consume": {
+    "$date": "2023-03-17T11:00:00.000Z"
+  },
+  "occassion": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6416172ab980065d088063fd"
+  },
+  "vintage": "2015",
+  "rack": "GF",
+  "shelf": "",
+  "wineText": "Ata Rangi Chardonnay - Craighall",
+  "wineId": "1200",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8650"
+  },
+  "consume": {
+    "$date": "2023-03-03T11:00:00.000Z"
+  },
+  "occassion": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6425244d69c33c002ede1d30"
+  },
+  "vintage": "2019",
+  "rack": "GB4",
+  "shelf": "",
+  "wineText": "Tony Bish Skeetfield ",
+  "wineId": "4940",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce87d2"
+  },
+  "consume": {
+    "$date": "2023-04-01T00:00:00.000Z"
+  },
+  "__v": 0,
+  "cost": null,
+  "occassion": "Sunday Club"
+},
+{
+  "_id": {
+    "$oid": "6425248069c33c002ede1d37"
+  },
+  "vintage": "2016",
+  "rack": "GB",
+  "shelf": "Right upper",
+  "cost": 35,
+  "wineText": "Torlesse SVR - Pinot Noir",
+  "wineId": "5030",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce87db"
+  },
+  "consume": {
+    "$date": "2023-04-01T00:00:00.000Z"
+  },
+  "__v": 0,
+  "occassion": "Sunday Club"
+},
+{
+  "_id": {
+    "$oid": "642524ba699ead002e7d0471"
+  },
+  "vintage": "2019",
+  "rack": "GB3",
+  "wineText": "Villa Maria Chardonnay Ihumatao Vineyard",
+  "wineId": "5240",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce87f0"
+  },
+  "consume": {
+    "$date": "2023-03-29T00:00:00.000Z"
+  },
+  "occassion": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "643f18c09c1163002c522ddf"
+  },
+  "vintage": "2016",
+  "rack": "Garage",
+  "shelf": "",
+  "cost": 54,
+  "wineText": "Vidal -Chardonnay - Hawkes Bay Legacy",
+  "wineId": "5160",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce87e8"
+  },
+  "consume": {
+    "$date": "2023-04-15T00:00:00.000Z"
+  },
+  "occassion": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "643f18dc9c1163002c522dec"
+  },
+  "vintage": "2021",
+  "rack": "Garage",
+  "shelf": "",
+  "cost": 19.58,
+  "wineText": "Whitehaven-Greg Sauvignon Blanc",
+  "wineId": "5350",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce87fb"
+  },
+  "consume": {
+    "$date": "2023-04-17T00:00:00.000Z"
+  },
+  "occassion": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "643f195c9c1163002c522e04"
+  },
+  "vintage": "2021",
+  "rack": "DF",
+  "shelf": "",
+  "cost": 40,
+  "wineText": "Villa Maria-Chardonnay Ihumatao Vineyard",
+  "wineId": "5250",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce87f1"
+  },
+  "consume": {
+    "$date": "2023-04-09T00:00:00.000Z"
+  },
+  "occassion": "Mooloolaba",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "643f196a9c1163002c522e0d"
+  },
+  "vintage": "2021",
+  "rack": "DF",
+  "shelf": "",
+  "cost": 40,
+  "wineText": "Villa Maria-Chardonnay Ihumatao Vineyard",
+  "wineId": "5250",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce87f1"
+  },
+  "consume": {
+    "$date": "2023-04-11T00:00:00.000Z"
+  },
+  "occassion": "Mooloolaba",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "643f19bb9c1163002c522e2c"
+  },
+  "vintage": "2022",
+  "rack": "DF",
+  "shelf": "",
+  "cost": 40,
+  "wineText": "Cloudy Bay-Sauvignon Blanc",
+  "wine": {
+    "$oid": "643f19969c1163002c522e19"
+  },
+  "consume": {
+    "$date": "2023-04-12T00:00:00.000Z"
+  },
+  "occassion": "Mooloolaba",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "643f3b7ccc3c56002e3fcc0a"
+  },
+  "vintage": "2021",
+  "rack": "GB5",
+  "shelf": "",
+  "cost": 25,
+  "wineText": "Stonecroft-Gimblett Gravels Chardonnay",
+  "wine": {
+    "$oid": "643f3b545d2bb8002fe44d57"
+  },
+  "consume": {
+    "$date": "2023-04-03T00:00:00.000Z"
+  },
+  "occassion": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "643f3c655d2bb8002fe44d82"
+  },
+  "vintage": "2021",
+  "rack": "Garage",
+  "shelf": "",
+  "cost": 25,
+  "wineText": "Gerard Bertrand-Cote de roses",
+  "wine": {
+    "$oid": "643f3c3e5d2bb8002fe44d6f"
+  },
+  "consume": {
+    "$date": "2023-04-07T00:00:00.000Z"
+  },
+  "occassion": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "643fabc7bfbad4002cd0719c"
+  },
+  "vintage": "2020",
+  "rack": "GB5",
+  "shelf": "",
+  "cost": 30,
+  "wineText": "Church Road-Grand Reserve Chardonnay",
+  "wineId": "2140",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce86ae"
+  },
+  "consume": {
+    "$date": "2023-04-19T00:00:00.000Z"
+  },
+  "occassion": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6445b0ee35d658002c26ae1a"
+  },
+  "vintage": "9999",
+  "rack": "Garage",
+  "shelf": "",
+  "cost": 39.99,
+  "wineText": "H.Lanvin & Fils-Brut NV Champagne",
+  "wine": {
+    "$oid": "64161227b980065d0880635b"
+  },
+  "consume": {
+    "$date": "2023-04-21T00:00:00.000Z"
+  },
+  "occassion": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6445b11735d658002c26ae27"
+  },
+  "vintage": "2016",
+  "rack": "GSR",
+  "shelf": "",
+  "cost": 33.99,
+  "wineText": "Sacred Hill -Brokenstone",
+  "wine": {
+    "$oid": "643f187e0ec0f5002ce0dcd8"
+  },
+  "consume": {
+    "$date": "2023-04-22T00:00:00.000Z"
+  },
+  "occassion": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "644612e7d96063002d918dd5"
+  },
+  "vintage": "2019",
+  "rack": "Garage ",
+  "cost": 47.22,
+  "wineText": "Sigalas Assyrtiko",
+  "wineId": "4660",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce87b6"
+  },
+  "consume": {
+    "$date": "2023-04-24T00:00:00.000Z"
+  },
+  "occassion": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "644cf2bb673383002cf8a019"
+  },
+  "vintage": "2018",
+  "rack": "GB3",
+  "shelf": "",
+  "wineText": "Elephant Hill-Chardonnay - Salome",
+  "wineId": "2990",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8703"
+  },
+  "consume": {
+    "$date": "2023-04-29T00:00:00.000Z"
+  },
+  "occassion": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "644cf2cf673383002cf8a026"
+  },
+  "vintage": "2018",
+  "rack": "GB3",
+  "wineText": "Decibel Wines Testify",
+  "wineId": "2350",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce86c3"
+  },
+  "consume": {
+    "$date": "2023-04-27T00:00:00.000Z"
+  },
+  "occassion": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6459ff4ac9ac7f002e38659f"
+  },
+  "vintage": "2020",
+  "rack": "GB5",
+  "shelf": "",
+  "wineText": "Bogle-Phantom Chardonnay",
+  "wineId": "1320",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce865c"
+  },
+  "consume": {
+    "$date": "2023-05-09T00:00:00.000Z"
+  },
+  "occassion": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "645c75fcab1a93002e34f024"
+  },
+  "vintage": "2019",
+  "rack": "Garage",
+  "shelf": "",
+  "cost": 34.99,
+  "wineText": "Te Kairanga-Chardonnay - John Martin",
+  "wine": {
+    "$oid": "645c6d71ab1a93002e34efbf"
+  },
+  "consume": {
+    "$date": "2023-05-07T00:00:00.000Z"
+  },
+  "occassion": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "645c7624ab1a93002e34f031"
+  },
+  "vintage": "2011",
+  "rack": "Garage left",
+  "shelf": "Upper",
+  "wineText": "Doctors Flat Pinot Noir",
+  "wineId": "2360",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce86c4"
+  },
+  "consume": {
+    "$date": "2023-05-05T00:00:00.000Z"
+  },
+  "occassion": "",
+  "__v": 0,
+  "cost": null
+},
+{
+  "_id": {
+    "$oid": "645c76aeab1a93002e34f04e"
+  },
+  "vintage": "2019",
+  "rack": "Garage",
+  "shelf": "",
+  "cost": 30,
+  "wineText": "Squawking Magpie-Counting Crows Chardonnay",
+  "wine": {
+    "$oid": "645c7689ab1a93002e34f03d"
+  },
+  "consume": {
+    "$date": "2023-05-02T00:00:00.000Z"
+  },
+  "occassion": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "645cbcf53ea00d002eb04292"
+  },
+  "vintage": "2014",
+  "rack": "GF",
+  "shelf": "",
+  "cost": null,
+  "wineText": "Leeuwin Estate-Chardonnay - Art Series",
+  "wineId": "3730",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8759"
+  },
+  "consume": {
+    "$date": "2023-05-11T00:00:00.000Z"
+  },
+  "occassion": "WA, NG & HD",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "645cbd2c3ea00d002eb042a7"
+  },
+  "vintage": "2019",
+  "rack": "Garage ",
+  "shelf": "",
+  "cost": 37.58,
+  "wineText": "Clos Henri-CHAPEL BLOCK Methode Traditionelle",
+  "wineId": "18888",
+  "wine": {
+    "$oid": "63adf61ef62fe0002ab90c69"
+  },
+  "consume": {
+    "$date": "2023-05-11T00:00:00.000Z"
+  },
+  "occassion": "WA/NG/HD",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "645f5c9c9bb63a002c1db448"
+  },
+  "vintage": "2010",
+  "rack": "LF",
+  "shelf": "8",
+  "wineText": "Vincent Dauvissat (René & Vincent)  Chablis Grand Cru Les Clos",
+  "wineId": "5280",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce87f4"
+  },
+  "consume": {
+    "$date": "2023-05-13T00:00:00.000Z"
+  },
+  "occassion": "WA/NG",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "645f5cc69bb63a002c1db455"
+  },
+  "vintage": "1996",
+  "rack": "LF",
+  "shelf": "4",
+  "wineText": "Château Pontet-Canet Pauillac",
+  "wineId": "2000",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce86a0"
+  },
+  "consume": {
+    "$date": "2023-05-13T00:00:00.000Z"
+  },
+  "occassion": "WA/NG",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "646477a523f51d002f3ec9a3"
+  },
+  "vintage": "2019",
+  "rack": "GB3",
+  "shelf": "",
+  "wineText": "Seifried Aotea Nelson Chardonnay",
+  "wineId": "4620",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce87b2"
+  },
+  "consume": {
+    "$date": "2023-05-17T00:00:00.000Z"
+  },
+  "occassion": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "646477eb23f51d002f3ec9b6"
+  },
+  "vintage": "2021",
+  "rack": "Garage",
+  "shelf": "",
+  "cost": 79.7,
+  "wineText": "Villa Maria -Chardonnay - Keltern",
+  "wineId": "5220",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce87ee"
+  },
+  "consume": {
+    "$date": "2023-05-15T00:00:00.000Z"
+  },
+  "occassion": "Wayne",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647284a2150e53001c50582e"
+  },
+  "vintage": "2014",
+  "rack": "GSR",
+  "cost": 29.99,
+  "wineText": "Valenciso - Rioja Laderas de Cabama",
+  "wineId": "3670",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce8752"
+  },
+  "consume": {
+    "$date": "2023-05-20T00:00:00.000Z"
+  },
+  "occassion": "Coravin",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648943237e51a3001b477c91"
+  },
+  "vintage": "2016",
+  "rack": "BR",
+  "shelf": "F&P",
+  "wineText": "Vidal  Chardonnay - Hawkes Bay Legacy",
+  "wineId": "5160",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce87e8"
+  },
+  "consume": {
+    "$date": "2023-06-13T00:00:00.000Z"
+  },
+  "occassion": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648956930c719c001da11c86"
+  },
+  "vintage": "2015",
+  "rack": "Garage right",
+  "shelf": "Right",
+  "cost": 29.99,
+  "wineText": "Wynns Coonawarra Estate Black Label Cabernet Sauvignon",
+  "wineId": "5360",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce87fc"
+  },
+  "consume": {
+    "$date": "2023-06-11T00:00:00.000Z"
+  },
+  "occassion": "Sunday Club",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648956b90c719c001da11c93"
+  },
+  "vintage": "2013",
+  "rack": "Garage",
+  "cost": 59.99,
+  "wineText": "Domaine Trimbach Gewürztraminer Cuvée des Seigneurs de Ribeaupierre ",
+  "wineId": "2830",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce86f3"
+  },
+  "consume": {
+    "$date": "2023-06-11T00:00:00.000Z"
+  },
+  "occassion": "Sunday Club",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648957600c719c001da11cb6"
+  },
+  "vintage": "2019",
+  "rack": "GB4",
+  "shelf": "",
+  "cost": 25,
+  "wineText": "Caro-Chardonnay Awatere Valley ",
+  "wine": {
+    "$oid": "648957360c719c001da11c9d"
+  },
+  "consume": {
+    "$date": "2023-06-08T00:00:00.000Z"
+  },
+  "occassion": "Sunday Club",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64895f0063a904001c7c5244"
+  },
+  "vintage": "2020",
+  "rack": "Moore Wilsons",
+  "shelf": "",
+  "cost": 39.99,
+  "wineText": "Blank Canvass-Reed Vineyard Chardonnay ",
+  "wine": {
+    "$oid": "646157931d57d6002dcad09c"
+  },
+  "consume": {
+    "$date": "2023-06-05T00:00:00.000Z"
+  },
+  "occassion": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648e366b13d935001b08de96"
+  },
+  "vintage": "2014",
+  "rack": "LF",
+  "shelf": "3",
+  "wineText": "Domaine de Montille Puligny 1er Cru Cailleret",
+  "wineId": "2550",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce86d7"
+  },
+  "consume": {
+    "$date": "2023-06-17T00:00:00.000Z"
+  },
+  "occassion": "Magnum committee dinner",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648e368513d935001b08dea3"
+  },
+  "vintage": "2006",
+  "rack": "LF",
+  "shelf": "6",
+  "wineText": "Château Pichon Longueville Comtesse de Lalande Pauillac",
+  "wineId": "1960",
+  "wine": {
+    "$oid": "6301ff4b3fccf1ba01ce869c"
+  },
+  "consume": {
+    "$date": "2023-06-17T00:00:00.000Z"
+  },
+  "occassion": "Magnum committee dinner",
+  "__v": 0
+}]

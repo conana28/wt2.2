@@ -1,0 +1,85 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+model Wine {
+  id         Int      @id @default(autoincrement())
+  producer   String
+  wineName   String
+  country    String
+  region     String
+  subRegion  String?
+  type       String?
+  notes      String?
+  bottle     Bottle[]
+  notesArray Note[]
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+}
+
+model Bottle {
+  id        Int       @id @default(autoincrement())
+  vintage   Int       @default(0)
+  rack      String
+  shelf     String?
+  cost      Int?
+  consume   DateTime?
+  occasion  String?
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+  wineId    Int
+  wine      Wine      @relation(fields: [wineId], references: [id])
+}
+
+model Note {
+  id        Int      @id @default(autoincrement())
+  vintage   Int      @default(0)
+  author    String
+  noteText  String?
+  rating    String
+  drinkFrom String?
+  drinkTo   String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  wineId    Int
+  wine      Wine     @relation(fields: [wineId], references: [id])
+}
+
+// model Country {
+//   id        Int      @id @default(autoincrement())
+//   name      String   @unique
+//   rank      Int      @unique
+//   createdAt DateTime @default(now())
+//   updatedAt DateTime @updatedAt
+//   regions   Region[]
+// }
+
+// model Region {
+//   id         Int         @id @default(autoincrement())
+//   name       String      @unique
+//   rank       Int
+//   createdAt  DateTime    @default(now())
+//   updatedAt  DateTime    @updatedAt
+//   countryId  Int
+//   country    Country     @relation(fields: [countryId], references: [id])
+//   subRegions SubRegion[]
+// }
+
+// model SubRegion {
+//   id        Int      @id @default(autoincrement())
+//   name      String   @unique
+//   rank      Int
+//   createdAt DateTime @default(now())
+//   updatedAt DateTime @updatedAt
+//   regionId  Int
+//   region    Region   @relation(fields: [regionId], references: [id])
+// }
