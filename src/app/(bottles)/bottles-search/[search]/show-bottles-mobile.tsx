@@ -41,22 +41,12 @@ export default function ShowBottlesMobile() {
                     {btl.rack}
                     {btl.shelf ? `/${btl.shelf}` : ""}{" "}
                   </div>
-                  {/* <div onClick={() => console.log("Clicked")}>...</div> */}
-                  {/* <Button
-                    variant="icon"
-                    onClick={() => {
-                      setBottleToEdit(btl);
-                      setOpenDialog(true);
-                    }}
-                  >
-                    <MoreHorizontal className="h-4 w-4" />
-                  </Button> */}
                 </div>
                 <Separator className="my-0.5" />
               </div>
             ))}
             <Dialog open={openDialog} onOpenChange={setOpenDialog}>
-              <DialogContent className="w-11/12 sm:max-w-xs">
+              <DialogContent className="w-11/12 sm:max-w-xs bg-stone-900">
                 <DialogHeader>
                   <DialogTitle>Bottle maintenance</DialogTitle>
                   <DialogDescription>
