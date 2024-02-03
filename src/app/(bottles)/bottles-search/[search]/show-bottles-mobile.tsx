@@ -23,7 +23,7 @@ export default function ShowBottlesMobile() {
     useContext(BottlesSearchContext);
   return (
     bottlesFound.length > 0 && (
-      <Card className="mt-2 ">
+      <Card className="mt-2 bg-stone-800">
         <ScrollArea className="h-72">
           <CardContent className="-ml-4">
             {bottlesFound.map((btl) => (

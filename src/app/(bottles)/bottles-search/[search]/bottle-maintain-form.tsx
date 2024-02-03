@@ -121,7 +121,11 @@ export function BottleMaintainForm({
                 <FormItem>
                   <FormLabel>Vintage</FormLabel>
                   <FormControl>
-                    <Input type="number" {...field} />
+                    <Input
+                      type="number"
+                      {...field}
+                      className="text-lg sm:text-sm"
+                    />
                   </FormControl>
                   <FormMessage />
                 </FormItem>
@@ -136,7 +140,11 @@ export function BottleMaintainForm({
                 <FormItem>
                   <FormLabel>Cost</FormLabel>
                   <FormControl>
-                    <Input type="number" {...field} />
+                    <Input
+                      type="number"
+                      {...field}
+                      className="text-lg sm:text-sm"
+                    />
                   </FormControl>
                   <FormMessage />
                 </FormItem>
@@ -153,7 +161,7 @@ export function BottleMaintainForm({
                 <FormItem>
                   <FormLabel>Rack</FormLabel>
                   <FormControl>
-                    <Input {...field} />
+                    <Input {...field} className="text-lg sm:text-sm" />
                   </FormControl>
                   <FormMessage />
                 </FormItem>
@@ -168,7 +176,7 @@ export function BottleMaintainForm({
                 <FormItem>
                   <FormLabel>Shelf</FormLabel>
                   <FormControl>
-                    <Input {...field} />
+                    <Input {...field} className="text-lg sm:text-sm" />
                   </FormControl>
                   <FormMessage />
                 </FormItem>
@@ -199,7 +207,9 @@ export function BottleMaintainForm({
                             {field.value ? (
                               format(field.value, "PPP")
                             ) : (
-                              <span>Pick a date</span>
+                              <span className="text-lg sm:text-sm">
+                                Pick a date
+                              </span>
                             )}
                             <CalendarIcon className="ml-auto h-4 w-4 opacity-50" />
                           </Button>
@@ -230,7 +240,7 @@ export function BottleMaintainForm({
                   <FormItem>
                     <FormLabel>Occasion</FormLabel>
                     <FormControl>
-                      <Input {...field} />
+                      <Input {...field} className="text-lg sm:text-sm" />
                     </FormControl>
                     <FormMessage />
                   </FormItem>
@@ -240,7 +250,7 @@ export function BottleMaintainForm({
           </div>
         )}
 
-        <div className="flex items-center justify-end space-x-4">
+        <div className="flex items-center justify-end space-x-7">
           <TooltipProvider>
             <Tooltip>
               <TooltipTrigger asChild>
@@ -250,7 +260,7 @@ export function BottleMaintainForm({
                   type="button"
                   onClick={() => setOpenDialog(false)}
                 >
-                  <X className="h-4 w-4" />
+                  <X className="h-6 w-6" />
                 </Button>
               </TooltipTrigger>
               <TooltipContent
@@ -278,7 +288,7 @@ export function BottleMaintainForm({
                     }
                   }}
                 >
-                  <Trash2 className="h-4 w-4" />
+                  <Trash2 className="h-6 w-6" />
                 </Button>
               </TooltipTrigger>
               <TooltipContent side="bottom" sideOffset={0} align="end">
@@ -299,7 +309,7 @@ export function BottleMaintainForm({
                     addBottleHandler(form.getValues() as BottleFormValues);
                   }}
                 >
-                  <Plus className="h-4 w-4" />
+                  <Plus className="h-6 w-6" />
                 </Button>
               </TooltipTrigger>
               <TooltipContent side="bottom" sideOffset={0} align="end">
@@ -320,7 +330,7 @@ export function BottleMaintainForm({
                     setIsConsume(!isConsume);
                   }}
                 >
-                  <PocketKnifeIcon className="h-4 w-4" />
+                  <PocketKnifeIcon className="h-6 w-6" />
                 </Button>
               </TooltipTrigger>
               <TooltipContent side="bottom" sideOffset={0} align="end">
@@ -329,8 +339,10 @@ export function BottleMaintainForm({
             </Tooltip>
           </TooltipProvider>
 
-          <Button size="xs" type="submit">
-            {isConsume ? "Consume" : "Edit"}
+          <Button size="sm" type="submit">
+            <span className="text-lg sm:text-sm">
+              {isConsume ? "Consume" : "Edit"}
+            </span>
           </Button>
         </div>
       </form>
