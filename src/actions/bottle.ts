@@ -414,7 +414,6 @@ export async function consumeBottle(
 }
 
 export async function deleteBottle(id: number) {
-  console.log("Delete bottle", id);
   try {
     await prisma.bottle.delete({ where: { id } });
     revalidatePath("/");

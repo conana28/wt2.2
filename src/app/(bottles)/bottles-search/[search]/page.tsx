@@ -6,6 +6,7 @@ import { CellarSearchForm } from "./cellar-search-form";
 import { ShowBottleTable } from "./show-bottle-table";
 import { TBottle } from "@/types/bottle";
 import { BottlesSearchContext } from "@/app/contexts/BottlesSearchContext";
+import ShowBottlesMobile from "./show-bottles-mobile";
 
 type Action = "E" | "A" | "D";
 
@@ -13,7 +14,6 @@ const BottlesSearch = ({ params }: { params: { search: string } }) => {
   console.log("Cellar params.search = ", params.search);
   const [bottlesFound, setBottlesFound] = React.useState<TBottle[]>([]);
   const [bottleToEdit, setBottleToEdit] = React.useState<TBottle | undefined>();
-
   const updateBottlesFoundArray = (updatedBottle: TBottle, action: Action) => {
     console.log(action, updatedBottle);
     const bottleExists = bottlesFound.some(
@@ -83,9 +83,15 @@ const BottlesSearch = ({ params }: { params: { search: string } }) => {
         </div>
         {/* Mobile View */}
         <div className="w-full md:hidden">
-          <div></div>
+          <div>
+            <CellarSearchForm
+              searchTerm={params.search === "*" ? "" : params.search}
+            />
+          </div>
           {bottlesFound.length > 0 && (
-            <div>{/* <ShowBottleMobile bottlesFound={bottlesFound} /> */}</div>
+            <div>
+              <ShowBottlesMobile />
+            </div>
           )}
         </div>
       </div>

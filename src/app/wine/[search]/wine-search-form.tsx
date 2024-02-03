@@ -59,6 +59,7 @@ export function WineSearchForm({
       // formDefaultValues.search = searchTerm;
       onSubmit({ search: searchTerm });
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   useEffect(() => {
