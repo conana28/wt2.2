@@ -29,14 +29,20 @@ export default function ShowBottlesMobile() {
             {bottlesFound.map((btl) => (
               <div key={btl.id}>
                 <div className="flex flex-row justify-between ">
-                  <div className="text-lg">
+                  <div
+                    className="text-lg"
+                    onClick={() => {
+                      setBottleToEdit(btl);
+                      setOpenDialog(true);
+                    }}
+                  >
                     {btl.vintage} {btl.wine.producer} {btl.wine.wineName}
                     {" - "}
                     {btl.rack}
                     {btl.shelf ? `/${btl.shelf}` : ""}{" "}
                   </div>
                   {/* <div onClick={() => console.log("Clicked")}>...</div> */}
-                  <Button
+                  {/* <Button
                     variant="icon"
                     onClick={() => {
                       setBottleToEdit(btl);
@@ -44,7 +50,7 @@ export default function ShowBottlesMobile() {
                     }}
                   >
                     <MoreHorizontal className="h-4 w-4" />
-                  </Button>
+                  </Button> */}
                 </div>
                 <Separator className="my-0.5" />
               </div>

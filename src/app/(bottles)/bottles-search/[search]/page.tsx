@@ -91,6 +91,9 @@ const BottlesSearch = ({ params }: { params: { search: string } }) => {
           {bottlesFound.length > 0 && (
             <div>
               <ShowBottlesMobile />
+              <div className="text-xs text-center mt-2">
+                * Click on a bottle to maintain
+              </div>
             </div>
           )}
         </div>

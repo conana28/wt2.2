@@ -101,7 +101,7 @@ export function CellarSearchForm({ searchTerm }: Props) {
 
   return (
     <div>
-      <Card className="bg-slate-900">
+      <Card className="bg-stone-900">
         <h1 className="text-base font-semibold ml-4 my-2">Search cellar</h1>
         {loading && (
           <div className="text-center text-primary text-xl">
