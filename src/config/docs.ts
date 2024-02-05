@@ -17,6 +17,10 @@ export const docsConfig: DocsConfig = {
       title: "Cellar",
       href: "/bottles-search/*",
     },
+    {
+      title: "Dashboard",
+      href: "/dashboard",
+    },
     // {
     //   title: "GitHub",
     //   href: "https://github.com/shadcn/ui",
@@ -25,25 +29,25 @@ export const docsConfig: DocsConfig = {
   ],
 
   sidebarNav: [
-    {
-      title: "Cellar1",
-      items: [
-        {
-          title: "Find",
-          href: "/",
-          items: [],
-        },
-        {
-          title: "Add",
-          href: "/",
-          items: [],
-        },
-        {
-          title: "Test",
-          href: "/test",
-          items: [],
-        },
-      ],
-    },
+    // {
+    //   title: "Cellar1",
+    //   items: [
+    //     {
+    //       title: "Find",
+    //       href: "/",
+    //       items: [],
+    //     },
+    //     {
+    //       title: "Add",
+    //       href: "/",
+    //       items: [],
+    //     },
+    //     {
+    //       title: "Test",
+    //       href: "/test",
+    //       items: [],
+    //     },
+    //   ],
+    // },
   ],
 };

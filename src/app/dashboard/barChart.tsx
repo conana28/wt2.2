@@ -1,5 +1,6 @@
 import { ResponsiveBar } from "@nivo/bar";
 import { set } from "date-fns";
+import { useEffect, useState } from "react";
 
 type ChartProps = React.JSX.IntrinsicAttributes &
   React.ClassAttributes<HTMLDivElement> &
@@ -15,13 +16,29 @@ export default function GroupedbarChart({
   setVintage,
   ...props
 }: ChartProps) {
+  const [fontSize, setFontSize] = useState(
+    window.innerWidth <= 640 ? "12px" : "8px"
+  );
+
+  useEffect(() => {
+    const handleResize = () => {
+      setFontSize(window.innerWidth <= 640 ? "8px" : "12px");
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
   return (
     <div {...props}>
       <ResponsiveBar
         data={data}
         keys={["bottleCount"]}
         indexBy="vintage"
-        margin={{ top: 50, right: 20, bottom: 50, left: 60 }}
+        // margin={{ top: 50, right: 20, bottom: 50, left: 60 }}
+        margin={{ top: 20, right: 20, bottom: 50, left: 50 }}
         padding={0.3}
         enableLabel={false}
         groupMode="grouped"
@@ -60,7 +77,8 @@ export default function GroupedbarChart({
             ticks: {
               text: {
                 fill: "#FFF",
-                fontSize: "10px",
+                // fontSize: "12px",
+                fontSize: fontSize,
               },
             },
             legend: {

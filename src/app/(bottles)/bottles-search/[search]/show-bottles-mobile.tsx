@@ -37,7 +37,7 @@ export default function ShowBottlesMobile() {
                     }}
                   >
                     {btl.vintage} {btl.wine.producer} {btl.wine.wineName}
-                    {" - "}
+                    {btl.cost ? ` $${btl.cost / 100}` : ""} {" - "}
                     {btl.rack}
                     {btl.shelf ? `/${btl.shelf}` : ""}{" "}
                   </div>

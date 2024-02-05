@@ -201,33 +201,36 @@ const Dashboard = () => {
     <div className="container">
       {/* {bottles.length === 0 && <div>Loading...</div>} */}
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mt-4">
+        {/* 1 */}
         <Card className="bg-slate-400">
           <CardDescription className="text-center text-slate-50">
             Total bottles
           </CardDescription>
           <p className="text-center pb-1">{bottleCount}</p>
         </Card>
+        {/* 2 */}
         <Card className="bg-slate-600">
+          <CardDescription className="text-center text-slate-50">
+            Total Wines
+          </CardDescription>
+          <p className="text-center pb-1">{totalWines}</p>
+        </Card>
+        {/* 3 */}
+        <Card className="bg-slate-500">
           <CardDescription className="text-center text-slate-50">
             Wines with Bottles
           </CardDescription>
           <p className="text-center pb-1">{uniqueBottleCount}</p>
         </Card>
-        <Card className="bg-slate-500">
-          {" "}
+        <Card className="bg-slate-700">
+          {/* 4 */}
           <CardDescription className="text-center text-slate-50">
             Consumed
           </CardDescription>
-          <p className="text-center pb-1">{consumeBottleCount}</p>
-        </Card>
-        <Card className="bg-slate-700">
-          {" "}
-          <CardDescription className="text-center text-slate-50">
-            Total Wines
-          </CardDescription>
-          <p className="text-center pb-1">{totalWines}</p>{" "}
+          <p className="text-center pb-1">{consumeBottleCount}</p>{" "}
         </Card>
       </div>
+
       <div className="flex flex-col  sm:flex-row gap-2 mt-4">
         <Card className="w-full">
           <CardHeader>

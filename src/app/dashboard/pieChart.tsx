@@ -13,7 +13,8 @@ export default function PieChart({ data, setCountry, ...props }: ChartProps) {
       <ResponsivePie
         data={data}
         sortByValue
-        margin={{ top: 40, right: 80, bottom: 80, left: 80 }}
+        // margin={{ top: 40, right: 80, bottom: 80, left: 80 }}
+        margin={{ top: 5, right: 5, bottom: 40, left: 20 }}
         cornerRadius={0}
         activeOuterRadiusOffset={2}
         borderWidth={1}
@@ -35,13 +36,15 @@ export default function PieChart({ data, setCountry, ...props }: ChartProps) {
             direction: "row",
             justify: false,
             translateX: 0,
-            translateY: 56,
-            itemsSpacing: 0,
-            itemWidth: 50,
+            // translateY: 56,
+            translateY: 26,
+            itemsSpacing: 20,
+            // itemWidth: 50,
+            itemWidth: 20,
             itemHeight: 18,
             itemTextColor: "#FFF",
             itemDirection: "top-to-bottom",
-            symbolSize: 14,
+            symbolSize: 10,
             symbolShape: "circle",
           },
         ]}
