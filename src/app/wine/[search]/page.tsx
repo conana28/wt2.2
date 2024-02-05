@@ -17,6 +17,20 @@ import ShowBottleTable from "./show-bottle-table";
 
 import { WineContext } from "../../contexts/WineContext";
 import ShowWinesMobile from "./show-wines-mobile";
+import { DialogContent } from "@radix-ui/react-dialog";
+import { Dialog } from "@/components/ui/dialog";
+import {
+  Drawer,
+  DrawerClose,
+  DrawerContent,
+  DrawerDescription,
+  DrawerFooter,
+  DrawerHeader,
+  DrawerTitle,
+  DrawerTrigger,
+} from "@/components/ui/drawer";
+import { Button } from "@/components/ui/button";
+import { set } from "date-fns";
 
 const wineEmpty: WineData = {
   id: 0,
@@ -35,6 +49,20 @@ const WineSearch = ({ params }: { params: { search: string } }) => {
   const [winesFound, setWinesFound] = React.useState<WineData[]>([]);
   const [showAction, setShowAction] = useState("");
   const [wine, setWine] = useState<WineData>(wineEmpty);
+  const [openDrawer, setOpenDrawer] = useState(false);
+  const handleOpenChange = (newOpenState: any) => {
+    // Update the open state of the drawer
+    setOpenDrawer(newOpenState);
+    // Perform additional actions
+    if (!openDrawer) setShowAction(""); // Reset showAction when drawer is closed
+  };
+  useEffect(() => {
+    if (showAction !== "") {
+      setOpenDrawer(true);
+    } else {
+      setOpenDrawer(false);
+    }
+  }, [showAction]);
 
   // Define a callback function which will be passed to WineAddEditForm
   // as a prop. This callback will be called when the form is submitted and will be
@@ -45,6 +73,7 @@ const WineSearch = ({ params }: { params: { search: string } }) => {
 
     if (wineExists) {
       // If the wine exists, update it
+      console.log("editing wine", updatedWine);
       setWinesFound(
         winesFound
           .map((wine) => (wine.id === updatedWine.id ? updatedWine : wine))
@@ -59,6 +88,7 @@ const WineSearch = ({ params }: { params: { search: string } }) => {
       );
     } else {
       // If the wine doesn't exist, add it
+      console.log("adding wine", updatedWine);
       setWinesFound(
         [...winesFound, updatedWine].sort((a, b) => {
           // Sort by producer
@@ -70,6 +100,11 @@ const WineSearch = ({ params }: { params: { search: string } }) => {
         })
       );
     }
+  };
+
+  const deleteWine = (id: number) => {
+    console.log("Delete Wine", id);
+    setWinesFound(winesFound.filter((wine) => wine.id !== id));
   };
 
   // Define a callback function which will be passed to BottleAddForm
@@ -148,7 +183,7 @@ const WineSearch = ({ params }: { params: { search: string } }) => {
           {/* Delete Wine */}
           {showAction === "D" && (
             <div className="w-3/12">
-              <DeleteWine />
+              <DeleteWine onUpdate={deleteWine} />
             </div>
           )}
           {/* Show Notes */}
@@ -194,6 +229,63 @@ const WineSearch = ({ params }: { params: { search: string } }) => {
           <div className={`${showAction !== "" ? "opacity-50" : ""}`}>
             <ShowWinesMobile wines={winesFound} />
           </div>
+          {/* Show Dialog */}
+
+          {/* Edit Wine */}
+          <>
+            {/* <Drawer open={openDrawer} onOpenChange={setOpenDrawer}> */}
+            <Drawer open={openDrawer} onOpenChange={handleOpenChange}>
+              {/* <DrawerTrigger asChild>
+                  <Button variant="outline">Edit Profile</Button>
+                </DrawerTrigger> */}
+              <DrawerContent className="w-11/12 mx-4">
+                <DrawerHeader className="text-left">
+                  <DrawerTitle>
+                    Wine Maintenance
+                    {showAction === "E" && ` - Edit`}
+                    {showAction === "A" && ` - Add Like`}
+                  </DrawerTitle>
+                  <DrawerDescription>.</DrawerDescription>
+                </DrawerHeader>
+                {showAction === "E" && (
+                  <div className="px-4">
+                    <WineAddEditForm wineForm={wine} onUpdate={updateWines} />
+                  </div>
+                )}
+
+                {showAction === "A" && (
+                  <div className="px-4">
+                    <WineAddEditForm
+                      wineForm={{ ...wine, id: 0, bottle: [] }}
+                      onUpdate={updateWines}
+                    />
+                  </div>
+                )}
+                {/* Show Bottles */}
+                {showAction === "S" && (
+                  <div className="px-4">
+                    <ShowBottleTable />
+                  </div>
+                )}
+                {showAction === "N" && (
+                  <div className="px-4">
+                    <ShowNotes />
+                  </div>
+                )}
+                {showAction === "D" && (
+                  <div className="px-4">
+                    <DeleteWine onUpdate={deleteWine} />
+                  </div>
+                )}
+                {/* <ProfileForm className="px-4" /> */}
+                {/* <DrawerFooter className="pt-2">
+                  <DrawerClose asChild>
+                    <Button variant="outline">Cancel</Button>
+                  </DrawerClose>
+                </DrawerFooter> */}
+              </DrawerContent>
+            </Drawer>
+          </>
         </div>
       </div>
     </WineContext.Provider>

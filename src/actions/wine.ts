@@ -185,7 +185,7 @@ export async function addWine(data: In) {
     });
     // Revalidate data
     revalidatePath("/");
-    return { success: true, data: result.data };
+    return { success: true, data: wine };
   }
 
   if (result.error) {

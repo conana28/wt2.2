@@ -15,7 +15,11 @@ import {
 } from "@/components/ui/card";
 import { checkBottleExists } from "@/actions/bottle";
 
-const DeleteWineCard = () => {
+interface DeleteFormProps {
+  onUpdate: (id: number) => void;
+}
+
+const DeleteWineCard = ({ onUpdate }: DeleteFormProps) => {
   const { wine, setShowAction } = useContext(WineContext);
   // Check if there are any bottles with this wine id
   // If there are, don't allow the wine to be deleted
@@ -39,7 +43,7 @@ const DeleteWineCard = () => {
       alert("Something went wrong with wine delete");
       return;
     }
-
+    onUpdate(wine.id);
     if (result.error) {
       // set local error state
       alert(result.error);
@@ -53,7 +57,7 @@ const DeleteWineCard = () => {
       <CardHeader>
         <CardTitle>Delete Wine</CardTitle>
         <CardDescription>
-          {wine.producer} {wine.wineName}{" "}
+          {wine.producer} {wine.wineName} ({wine.id})
         </CardDescription>
       </CardHeader>
       <CardContent>

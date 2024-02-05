@@ -95,7 +95,7 @@ function ShowBottleTable({}: Props) {
         <CardHeader>
           <CardTitle>Bottles</CardTitle>
           <CardDescription>
-            {wine.producer} {wine.wineName}{" "}
+            {wine.producer} {wine.wineName} ({wine.id})
           </CardDescription>
         </CardHeader>
         <CardContent>

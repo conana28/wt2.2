@@ -22,6 +22,7 @@ import { WineContext } from "@/app/contexts/WineContext";
 import { Edit } from "lucide-react";
 import { Textarea } from "@/components/ui/textarea";
 import { WineData } from "./columns";
+import { on } from "events";
 
 type WineFormValues = z.infer<typeof WineFormDataSchema>;
 
@@ -51,8 +52,19 @@ export default function WineAddEditForm({ wineForm, onUpdate }: WineFormProps) {
     let result;
     if (wineForm.id === 0) {
       result = await addWine(data);
+      console.log("Add Wine", result?.data);
+      if (result?.data) onUpdate({ ...result.data, bottle: [] });
     } else {
       result = await updateWine(data, wine.id);
+      console.log("Update Wine", result?.data);
+      onUpdate({
+        ...data,
+        id: wineForm.id,
+        bottle: wineForm.bottle,
+        subRegion: wineForm.subRegion || null,
+        type: wineForm.type || null,
+        notes: wineForm.notes || null,
+      });
     }
 
     if (!result) {
@@ -65,14 +77,7 @@ export default function WineAddEditForm({ wineForm, onUpdate }: WineFormProps) {
       alert(result.error);
       return;
     }
-    onUpdate({
-      ...data,
-      id: wineForm.id,
-      bottle: wineForm.bottle,
-      subRegion: wineForm.subRegion || null,
-      type: wineForm.type || null,
-      notes: wineForm.notes || null,
-    });
+
     setShowAction("");
     form.reset();
   }
@@ -89,7 +94,11 @@ export default function WineAddEditForm({ wineForm, onUpdate }: WineFormProps) {
                 <FormItem>
                   <FormLabel>Producer</FormLabel>
                   <FormControl>
-                    <Input placeholder="producer" {...field} />
+                    <Input
+                      placeholder="producer"
+                      {...field}
+                      className="text-lg sm:text-sm"
+                    />
                   </FormControl>
                   <FormMessage />
                 </FormItem>
@@ -104,7 +113,11 @@ export default function WineAddEditForm({ wineForm, onUpdate }: WineFormProps) {
                 <FormItem>
                   <FormLabel>Wine name</FormLabel>
                   <FormControl>
-                    <Input placeholder="Wine name" {...field} />
+                    <Input
+                      placeholder="Wine name"
+                      {...field}
+                      className="text-lg sm:text-sm"
+                    />
                   </FormControl>
                   <FormMessage />
                 </FormItem>
@@ -121,7 +134,11 @@ export default function WineAddEditForm({ wineForm, onUpdate }: WineFormProps) {
                 <FormItem>
                   <FormLabel>Country</FormLabel>
                   <FormControl>
-                    <Input placeholder="Country" {...field} />
+                    <Input
+                      placeholder="Country"
+                      {...field}
+                      className="text-lg sm:text-sm"
+                    />
                   </FormControl>
                   <FormMessage />
                 </FormItem>
@@ -136,7 +153,11 @@ export default function WineAddEditForm({ wineForm, onUpdate }: WineFormProps) {
                 <FormItem>
                   <FormLabel>Region</FormLabel>
                   <FormControl>
-                    <Input placeholder="Region" {...field} />
+                    <Input
+                      placeholder="Region"
+                      {...field}
+                      className="text-lg sm:text-sm"
+                    />
                   </FormControl>
                   <FormMessage />
                 </FormItem>
@@ -154,7 +175,11 @@ export default function WineAddEditForm({ wineForm, onUpdate }: WineFormProps) {
                 <FormItem>
                   <FormLabel>Sub region</FormLabel>
                   <FormControl>
-                    <Input placeholder="Sub region" {...field} />
+                    <Input
+                      placeholder="Sub region"
+                      {...field}
+                      className="text-lg sm:text-sm"
+                    />
                   </FormControl>
                   <FormMessage />
                 </FormItem>
@@ -169,7 +194,11 @@ export default function WineAddEditForm({ wineForm, onUpdate }: WineFormProps) {
                 <FormItem>
                   <FormLabel>Type</FormLabel>
                   <FormControl>
-                    <Input placeholder="Type" {...field} />
+                    <Input
+                      placeholder="Type"
+                      {...field}
+                      className="text-lg sm:text-sm"
+                    />
                   </FormControl>
                   <FormMessage />
                 </FormItem>
@@ -187,7 +216,11 @@ export default function WineAddEditForm({ wineForm, onUpdate }: WineFormProps) {
                 <FormItem>
                   <FormLabel>Notes</FormLabel>
                   <FormControl>
-                    <Textarea placeholder="Notes" {...field} />
+                    <Textarea
+                      placeholder="Notes"
+                      {...field}
+                      className="text-lg sm:text-sm"
+                    />
                   </FormControl>
                   <FormMessage />
                 </FormItem>
