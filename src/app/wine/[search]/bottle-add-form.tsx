@@ -100,8 +100,11 @@ export function BottleAddForm({ id, onUpdate }: BottleFormProps) {
 
   return (
     <Form {...form}>
-      <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
-        <div className="flex flex-row gap-4">
+      <form
+        onSubmit={form.handleSubmit(onSubmit)}
+        className="space-y-4  sm:space-y-6 mb-4"
+      >
+        <div className="flex flex-row gap-4 ">
           <div className="w-1/2">
             <FormField
               control={form.control}
@@ -110,7 +113,11 @@ export function BottleAddForm({ id, onUpdate }: BottleFormProps) {
                 <FormItem>
                   <FormLabel>Vintage</FormLabel>
                   <FormControl>
-                    <Input type="number" {...field} />
+                    <Input
+                      type="number"
+                      {...field}
+                      className="text-lg sm:text-sm"
+                    />
                   </FormControl>
                   <FormMessage />
                 </FormItem>
@@ -125,7 +132,11 @@ export function BottleAddForm({ id, onUpdate }: BottleFormProps) {
                 <FormItem>
                   <FormLabel>Cost</FormLabel>
                   <FormControl>
-                    <Input type="number" {...field} />
+                    <Input
+                      type="number"
+                      {...field}
+                      className="text-lg sm:text-sm"
+                    />
                   </FormControl>
                   <FormMessage />
                 </FormItem>
@@ -142,7 +153,7 @@ export function BottleAddForm({ id, onUpdate }: BottleFormProps) {
                 <FormItem>
                   <FormLabel>Rack</FormLabel>
                   <FormControl>
-                    <Input {...field} />
+                    <Input {...field} className="text-lg sm:text-sm" />
                   </FormControl>
                   <FormMessage />
                 </FormItem>
@@ -157,7 +168,7 @@ export function BottleAddForm({ id, onUpdate }: BottleFormProps) {
                 <FormItem>
                   <FormLabel>Shelf</FormLabel>
                   <FormControl>
-                    <Input {...field} />
+                    <Input {...field} className="text-lg sm:text-sm" />
                   </FormControl>
                   <FormMessage />
                 </FormItem>
@@ -175,7 +186,11 @@ export function BottleAddForm({ id, onUpdate }: BottleFormProps) {
                 <FormItem>
                   <FormLabel>Qty</FormLabel>
                   <FormControl>
-                    <Input type="number" {...field} />
+                    <Input
+                      type="number"
+                      {...field}
+                      className="text-lg sm:text-sm"
+                    />
                   </FormControl>
                   <FormMessage />
                 </FormItem>
@@ -184,7 +199,7 @@ export function BottleAddForm({ id, onUpdate }: BottleFormProps) {
           </div>
         </div>
 
-        <div className="flex items-center justify-center space-x-4">
+        <div className="flex items-center justify-center space-x-4 ">
           <Button
             size="xs"
             variant="secondary"

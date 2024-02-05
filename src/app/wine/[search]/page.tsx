@@ -31,6 +31,7 @@ import {
 } from "@/components/ui/drawer";
 import { Button } from "@/components/ui/button";
 import { set } from "date-fns";
+import { Separator } from "@/components/ui/separator";
 
 const wineEmpty: WineData = {
   id: 0,
@@ -238,21 +239,24 @@ const WineSearch = ({ params }: { params: { search: string } }) => {
               {/* <DrawerTrigger asChild>
                   <Button variant="outline">Edit Profile</Button>
                 </DrawerTrigger> */}
-              <DrawerContent className="w-11/12 mx-4">
+              <DrawerContent className="w-11/12 mx-4 bd-stone-950">
                 <DrawerHeader className="text-left">
                   <DrawerTitle>
                     Wine Maintenance
                     {showAction === "E" && ` - Edit`}
                     {showAction === "A" && ` - Add Like`}
+                    {showAction === "N" && ` - Show wine notes`}
+                    {showAction === "S" && ` - Show Bottle(s)`}
+                    {showAction === "B" && ` - Add Bottle(s)`}
+                    <Separator className="mt-2" />
                   </DrawerTitle>
-                  <DrawerDescription>.</DrawerDescription>
+                  {/* <DrawerDescription>.</DrawerDescription> */}
                 </DrawerHeader>
                 {showAction === "E" && (
                   <div className="px-4">
                     <WineAddEditForm wineForm={wine} onUpdate={updateWines} />
                   </div>
                 )}
-
                 {showAction === "A" && (
                   <div className="px-4">
                     <WineAddEditForm
@@ -276,13 +280,19 @@ const WineSearch = ({ params }: { params: { search: string } }) => {
                   <div className="px-4">
                     <DeleteWine onUpdate={deleteWine} />
                   </div>
+                )}{" "}
+                {/* Add Bottle(s) */}
+                {showAction === "B" && (
+                  <div className="px-4 bg-stone-900 ">
+                    <BottleAddForm id={wine.id} onUpdate={updateBottles} />
+                  </div>
                 )}
                 {/* <ProfileForm className="px-4" /> */}
-                {/* <DrawerFooter className="pt-2">
-                  <DrawerClose asChild>
+                <DrawerFooter className="pb-4">
+                  {/* <DrawerClose asChild>
                     <Button variant="outline">Cancel</Button>
-                  </DrawerClose>
-                </DrawerFooter> */}
+                  </DrawerClose> */}
+                </DrawerFooter>
               </DrawerContent>
             </Drawer>
           </>

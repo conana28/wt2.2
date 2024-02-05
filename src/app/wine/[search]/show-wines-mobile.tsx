@@ -17,6 +17,7 @@ import {
 import { WineContext } from "@/app/contexts/WineContext";
 import { Button } from "@/components/ui/button";
 import { MoreHorizontal } from "lucide-react";
+import { Separator } from "@/components/ui/separator";
 
 type Props = {
   wines: WineData[]; // Wines to display
@@ -40,10 +41,7 @@ export default function ShowWinesMobile({ wines }: Props) {
                   </div>
                   <DropdownMenu>
                     <DropdownMenuTrigger asChild disabled={showAction !== ""}>
-                      <Button
-                        variant="ghost"
-                        className="float-right mr-2 h-8 w-8 p-0"
-                      >
+                      <Button variant="ghost" className="-mr-4">
                         <MoreHorizontal className="h-4 w-4" />
                       </Button>
                     </DropdownMenuTrigger>
@@ -54,6 +52,7 @@ export default function ShowWinesMobile({ wines }: Props) {
                           setWine(wine);
                         }}
                         disabled={wine.notes === "" || wine.notes === null}
+                        className="text-lg sm:text-sm"
                       >
                         Notes
                       </DropdownMenuItem>
@@ -62,6 +61,7 @@ export default function ShowWinesMobile({ wines }: Props) {
                           setShowAction("E");
                           setWine(wine);
                         }}
+                        className="text-lg sm:text-sm"
                       >
                         Edit
                       </DropdownMenuItem>
@@ -70,6 +70,7 @@ export default function ShowWinesMobile({ wines }: Props) {
                           setShowAction("A");
                           setWine(wine);
                         }}
+                        className="text-lg sm:text-sm"
                       >
                         Add Like
                       </DropdownMenuItem>
@@ -79,6 +80,7 @@ export default function ShowWinesMobile({ wines }: Props) {
                           setWine(wine);
                         }}
                         disabled={wine.bottle.length > 0}
+                        className="text-lg sm:text-sm"
                       >
                         Delete
                       </DropdownMenuItem>
@@ -89,6 +91,7 @@ export default function ShowWinesMobile({ wines }: Props) {
                           setWine(wine);
                         }}
                         disabled={wine.bottle.length === 0}
+                        className="text-lg sm:text-sm"
                       >
                         Show bottles
                       </DropdownMenuItem>
@@ -98,12 +101,14 @@ export default function ShowWinesMobile({ wines }: Props) {
                           setShowAction("B");
                           setWine(wine);
                         }}
+                        className="text-lg sm:text-sm"
                       >
                         Add bottle
                       </DropdownMenuItem>
                     </DropdownMenuContent>
                   </DropdownMenu>
                 </div>
+                <Separator />
               </div>
             ))}
           </ScrollArea>

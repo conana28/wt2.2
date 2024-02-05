@@ -9,6 +9,8 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import { Scroll } from "lucide-react";
+import { ScrollArea } from "@/components/ui/scroll-area";
 
 const NotesCard = () => {
   const { wine, setShowAction } = useContext(WineContext);
@@ -22,18 +24,16 @@ const NotesCard = () => {
         </CardDescription>
       </CardHeader>
       <CardContent>
-        {wine.notes === null ? (
-          <div className="text-primary text-xl">
-            There are no notes for this wine
-          </div>
+        {wine.notes!.length > 150 ? (
+          <ScrollArea className="h-52 w-full">{wine.notes}</ScrollArea>
         ) : (
-          <div>{wine.notes}</div>
+          <div className="w-full">{wine.notes}</div>
         )}
       </CardContent>
       <CardFooter>
         <div className="flex items-center justify-end w-full">
           <Button
-            size="xs"
+            size="sm"
             variant="secondary"
             onClick={() => setShowAction("")}
           >
