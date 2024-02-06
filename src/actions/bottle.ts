@@ -503,6 +503,10 @@ export async function searchBottles1(data: Inputs) {
       contains: result.data.rack,
       mode: "insensitive",
     },
+    shelf: {
+      contains: result.data.shelf,
+      mode: "insensitive",
+    },
     consume: null,
   };
   if (data.vintage !== "" && data.vintage !== undefined) {

@@ -21,8 +21,9 @@ import {
   TableRow,
 } from "@/components/ui/table";
 import { Button } from "@/components/ui/button";
-import React from "react";
+import React, { useEffect } from "react";
 import { Input } from "@/components/ui/input";
+import page from "../../bottles-server-pagination/page";
 
 interface DataTableProps<TData, TValue> {
   columns: ColumnDef<TData, TValue>[];
@@ -51,6 +52,11 @@ export function DataTable<TData, TValue>({
       columnFilters,
     },
   });
+  // Adjust page size based on screen width
+  useEffect(() => {
+    const pageSize = window.innerWidth <= 1280 ? 6 : 10;
+    table.setPageSize(pageSize);
+  }, []);
 
   return (
     <div>
@@ -126,7 +132,9 @@ export function DataTable<TData, TValue>({
         <Button
           variant="outline"
           size="sm"
-          onClick={() => table.nextPage()}
+          onClick={() => {
+            table.nextPage();
+          }}
           disabled={!table.getCanNextPage()}
         >
           Next

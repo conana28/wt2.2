@@ -49,6 +49,7 @@ export const BottleSearchSchema = z
     // }),
     country: z.string().optional(),
     rack: z.string().optional(),
+    shelf: z.string().optional(),
   })
   .refine(
     (data) => {

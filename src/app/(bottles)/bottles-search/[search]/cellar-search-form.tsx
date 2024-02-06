@@ -38,6 +38,7 @@ export function CellarSearchForm({ searchTerm }: Props) {
     search: searchTerm ? searchTerm : "",
     country: "",
     rack: "",
+    shelf: "",
     vintage: "", // this is a string but the schema expects a number
   };
 
@@ -88,6 +89,7 @@ export function CellarSearchForm({ searchTerm }: Props) {
       search: "",
       country: "",
       rack: "",
+      shelf: "",
       vintage: "",
     };
     // Reset the form with the new default values
@@ -112,7 +114,7 @@ export function CellarSearchForm({ searchTerm }: Props) {
         <Form {...form}>
           <form
             onSubmit={form.handleSubmit(onSubmit)}
-            className="space-y-3 md:space-y-6 px-2"
+            className="space-y-3 xl:space-y-4 px-2"
           >
             <FormField
               control={form.control}
@@ -166,24 +168,44 @@ export function CellarSearchForm({ searchTerm }: Props) {
                 </FormItem>
               )}
             />
-            <FormField
-              control={form.control}
-              name="rack"
-              render={({ field }) => (
-                <FormItem>
-                  {/* <FormLabel>Rack</FormLabel> */}
-                  <FormControl>
-                    <Input
-                      placeholder="Rack"
-                      className="text-lg md:text-sm"
-                      {...field}
-                    />
-                  </FormControl>
+            <div className="flex flex-row gap-2">
+              <FormField
+                control={form.control}
+                name="rack"
+                render={({ field }) => (
+                  <FormItem>
+                    {/* <FormLabel>Rack</FormLabel> */}
+                    <FormControl>
+                      <Input
+                        placeholder="Rack"
+                        className="text-lg md:text-sm"
+                        {...field}
+                      />
+                    </FormControl>
 
-                  <FormMessage />
-                </FormItem>
-              )}
-            />
+                    <FormMessage />
+                  </FormItem>
+                )}
+              />
+              <FormField
+                control={form.control}
+                name="shelf"
+                render={({ field }) => (
+                  <FormItem>
+                    {/* <FormLabel>Rack</FormLabel> */}
+                    <FormControl>
+                      <Input
+                        placeholder="Shelf"
+                        className="text-lg md:text-sm"
+                        {...field}
+                      />
+                    </FormControl>
+
+                    <FormMessage />
+                  </FormItem>
+                )}
+              />
+            </div>
             <div className="text-center pb-4">
               <Button type="button" variant="icon" size="icon" onClick={cancel}>
                 <XCircle />
