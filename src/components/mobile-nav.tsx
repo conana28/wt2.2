@@ -52,7 +52,7 @@ export function MobileNav() {
                     href={item.href}
                     onOpenChange={setOpen}
                   >
-                    {item.title}
+                    <p className="text-xl">{item.title}</p>
                   </MobileLink>
                 )
             )}

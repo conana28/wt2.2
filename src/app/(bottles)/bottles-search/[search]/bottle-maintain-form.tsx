@@ -32,7 +32,7 @@ import {
   PopoverTrigger,
 } from "@/components/ui/popover";
 import { cn } from "@/lib/utils";
-import { format } from "date-fns";
+import { format, set } from "date-fns";
 import { Calendar } from "@/components/ui/calendar";
 import { BottlesSearchContext } from "@/app/contexts/BottlesSearchContext";
 import { TBottle } from "@/types/bottle";
@@ -60,11 +60,13 @@ export function BottleMaintainForm({
     defaultValues,
   });
   const [isConsume, setIsConsume] = useState(false);
+  const [isUpdating, setIsUpdating] = useState(false);
 
   async function onSubmit(data: BottleFormValues) {
     console.log("Form Submit ", data);
 
     if (bottleToEdit) {
+      setIsUpdating(true);
       const result = await updateBottle(data, bottleToEdit.id); // Update the bottle table
       if (result) {
         const updatedBottle = { ...result.data, noteCount: 0 };
@@ -80,12 +82,14 @@ export function BottleMaintainForm({
         alert("Something went wrong - Update Bottle");
         return;
       }
+      setIsUpdating(false);
       console.log("Updated bottle", result);
     }
     setOpenDialog(false);
   }
 
   async function addBottleHandler(data: BottleFormValues) {
+    setIsUpdating(true);
     const result = await addBottle(data, bottleToEdit!.wineId); // Add a bottle (pass wine id)
     if (result && result.success && result.data) {
       const updatedBottle = { ...result.data, noteCount: 0 };
@@ -93,11 +97,13 @@ export function BottleMaintainForm({
     } else {
       alert("Something went wrong - Add Bottle");
     }
+    setIsUpdating(false);
     setOpenDialog(false);
   }
 
   async function deleteBottleHandler(bid: number) {
     if (bid) {
+      setIsUpdating(true);
       const result = await deleteBottle(bid); // Update the bottle table
       let updatedBottle = { ...bottleToEdit!, noteCount: 0 };
       if (!result.success) {
@@ -105,12 +111,16 @@ export function BottleMaintainForm({
         return;
       }
       updateBottlesFoundArray(updatedBottle, "D");
+      setIsUpdating(false);
       setOpenDialog(false);
     }
   }
 
   return (
     <Form {...form}>
+      {isUpdating && (
+        <div className="text-primary text-xl  animate-pulse">Updating...</div>
+      )}
       <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
         <div className="flex flex-row gap-4">
           <div className="w-1/2">
