@@ -16,8 +16,10 @@ const ConsumeTable = () => {
   // Get consumed bottles in the cellar
   useEffect(() => {
     async function fetchConsumedBottles() {
+      setLoading(true);
       const response = await getConsumedBottles();
       setConsumedBottles(response);
+      setLoading(false);
     }
 
     fetchConsumedBottles();
@@ -36,6 +38,7 @@ const ConsumeTable = () => {
       }
     }
   }, [loading]);
+
   return (
     <div>
       <div>

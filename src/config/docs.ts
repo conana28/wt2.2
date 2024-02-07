@@ -21,6 +21,11 @@ export const docsConfig: DocsConfig = {
       title: "Dashboard",
       href: "/dashboard",
     },
+    {
+      title: "Consumed",
+      href: "/consume-mobile",
+    },
+
     // {
     //   title: "GitHub",
     //   href: "https://github.com/shadcn/ui",
