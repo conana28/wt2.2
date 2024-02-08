@@ -23,7 +23,7 @@ export const docsConfig: DocsConfig = {
     },
     {
       title: "Consumed",
-      href: "/consume-mobile",
+      href: "/consume-mobile/1",
     },
 
     // {
