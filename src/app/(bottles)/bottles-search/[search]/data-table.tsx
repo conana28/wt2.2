@@ -23,7 +23,7 @@ import {
 import { Button } from "@/components/ui/button";
 import React, { useEffect } from "react";
 import { Input } from "@/components/ui/input";
-import page from "../../bottles-server-pagination/page";
+import page from "../../bottles-server-pagination/page old";
 
 interface DataTableProps<TData, TValue> {
   columns: ColumnDef<TData, TValue>[];
