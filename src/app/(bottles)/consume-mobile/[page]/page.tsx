@@ -64,10 +64,10 @@ function ConsumeMobile({ params }: { params: { page: string } }) {
         <Card>
           <CardTitle className="text-primary text-xl ml-6">
             Consumed bottles
-            <Separator className="my-2" />
+            <Separator className="my-1" />
           </CardTitle>
           <CardContent>
-            <ScrollArea className="h-96">
+            <ScrollArea className="h-128">
               {consumedBottles.map((bottle) => (
                 <div key={bottle.id}>
                   <p>
@@ -75,7 +75,7 @@ function ConsumeMobile({ params }: { params: { page: string } }) {
                     {bottle.wine.wineName} {bottle.rack} {bottle.shelf}{" "}
                     {format(bottle.consume!, "dd/MM/yyyy")}
                   </p>
-                  <Separator className="my-2" />
+                  <Separator className="my-1" />
                 </div>
               ))}
             </ScrollArea>
