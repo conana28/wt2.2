@@ -48,7 +48,7 @@ export default function ShowWinesMobile({ wines }: Props) {
                     <DropdownMenuContent align="end">
                       <DropdownMenuItem
                         onClick={() => {
-                          setShowAction("N");
+                          setShowAction("MN");
                           setWine(wine);
                         }}
                         disabled={wine.notes === "" || wine.notes === null}
@@ -58,7 +58,7 @@ export default function ShowWinesMobile({ wines }: Props) {
                       </DropdownMenuItem>
                       <DropdownMenuItem
                         onClick={() => {
-                          setShowAction("E");
+                          setShowAction("ME");
                           setWine(wine);
                         }}
                         className="text-lg sm:text-sm"
@@ -67,7 +67,7 @@ export default function ShowWinesMobile({ wines }: Props) {
                       </DropdownMenuItem>
                       <DropdownMenuItem
                         onClick={() => {
-                          setShowAction("A");
+                          setShowAction("MA");
                           setWine(wine);
                         }}
                         className="text-lg sm:text-sm"
@@ -76,7 +76,7 @@ export default function ShowWinesMobile({ wines }: Props) {
                       </DropdownMenuItem>
                       <DropdownMenuItem
                         onClick={() => {
-                          setShowAction("D");
+                          setShowAction("MD");
                           setWine(wine);
                         }}
                         disabled={wine.bottle.length > 0}
@@ -87,7 +87,7 @@ export default function ShowWinesMobile({ wines }: Props) {
                       <DropdownMenuSeparator />
                       <DropdownMenuItem
                         onClick={() => {
-                          setShowAction("S");
+                          setShowAction("MS");
                           setWine(wine);
                         }}
                         disabled={wine.bottle.length === 0}
@@ -98,7 +98,7 @@ export default function ShowWinesMobile({ wines }: Props) {
 
                       <DropdownMenuItem
                         onClick={() => {
-                          setShowAction("B");
+                          setShowAction("MB");
                           setWine(wine);
                         }}
                         className="text-lg sm:text-sm"

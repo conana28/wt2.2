@@ -58,7 +58,8 @@ const WineSearch = ({ params }: { params: { search: string } }) => {
     if (!openDrawer) setShowAction(""); // Reset showAction when drawer is closed
   };
   useEffect(() => {
-    if (showAction !== "") {
+    // if (showAction !== "") {
+    if (showAction !== "" && showAction.startsWith("M")) {
       setOpenDrawer(true);
     } else {
       setOpenDrawer(false);
@@ -214,7 +215,7 @@ const WineSearch = ({ params }: { params: { search: string } }) => {
           )}
         </div>
 
-        {/* Mobile View */}
+        {/* --------------- Mobile View ------------- */}
         {/*  Search Wines Form */}
         <div className={`sm:hidden ${showAction !== "" ? "opacity-50" : ""}`}>
           <WineSearchForm
@@ -230,34 +231,31 @@ const WineSearch = ({ params }: { params: { search: string } }) => {
           <div className={`${showAction !== "" ? "opacity-50" : ""}`}>
             <ShowWinesMobile wines={winesFound} />
           </div>
+
           {/* Show Dialog */}
 
           {/* Edit Wine */}
           <>
-            {/* <Drawer open={openDrawer} onOpenChange={setOpenDrawer}> */}
             <Drawer open={openDrawer} onOpenChange={handleOpenChange}>
-              {/* <DrawerTrigger asChild>
-                  <Button variant="outline">Edit Profile</Button>
-                </DrawerTrigger> */}
               <DrawerContent className="w-11/12 mx-4 bd-stone-950">
                 <DrawerHeader className="text-left">
                   <DrawerTitle>
                     Wine Maintenance
-                    {showAction === "E" && ` - Edit`}
-                    {showAction === "A" && ` - Add Like`}
-                    {showAction === "N" && ` - Show wine notes`}
-                    {showAction === "S" && ` - Show Bottle(s)`}
-                    {showAction === "B" && ` - Add Bottle(s)`}
+                    {showAction === "ME" && ` - Edit`}
+                    {showAction === "MA" && ` - Add Like`}
+                    {showAction === "MN" && ` - Show wine notes`}
+                    {showAction === "MS" && ` - Show Bottle(s)`}
+                    {showAction === "MB" && ` - Add Bottle(s)`}
                     <Separator className="mt-2" />
                   </DrawerTitle>
                   {/* <DrawerDescription>.</DrawerDescription> */}
                 </DrawerHeader>
-                {showAction === "E" && (
+                {showAction === "ME" && (
                   <div className="px-4">
                     <WineAddEditForm wineForm={wine} onUpdate={updateWines} />
                   </div>
                 )}
-                {showAction === "A" && (
+                {showAction === "MA" && (
                   <div className="px-4">
                     <WineAddEditForm
                       wineForm={{ ...wine, id: 0, bottle: [] }}
@@ -266,23 +264,23 @@ const WineSearch = ({ params }: { params: { search: string } }) => {
                   </div>
                 )}
                 {/* Show Bottles */}
-                {showAction === "S" && (
+                {showAction === "MS" && (
                   <div className="px-4">
                     <ShowBottleTable />
                   </div>
                 )}
-                {showAction === "N" && (
+                {showAction === "MN" && (
                   <div className="px-4">
                     <ShowNotes />
                   </div>
                 )}
-                {showAction === "D" && (
+                {showAction === "MD" && (
                   <div className="px-4">
                     <DeleteWine onUpdate={deleteWine} />
                   </div>
                 )}{" "}
                 {/* Add Bottle(s) */}
-                {showAction === "B" && (
+                {showAction === "MB" && (
                   <div className="px-4 bg-stone-900 ">
                     <BottleAddForm id={wine.id} onUpdate={updateBottles} />
                   </div>
