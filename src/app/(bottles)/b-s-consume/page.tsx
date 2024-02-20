@@ -4,8 +4,8 @@ import type { SearchParams } from "@/types";
 import { DataTableSkeleton } from "@/components/data-table/data-table-skeleton";
 import { Shell } from "@/components/shell";
 
-import { BottlesTable } from "./_components/bottles-table";
-import { getBottles } from "./_lib/b_queries";
+import { BottlesTable } from "./_components/c-bottles-table";
+import { getBottles } from "./_lib/c_queries";
 
 export const dynamic = "force-dynamic";
 
@@ -28,7 +28,7 @@ export default function IndexPage({ searchParams }: IndexPageProps) {
          * This is done because the table columns need to be memoized, and the `useDataTable` hook needs to be called in a client component.
          * By encapsulating the `DataTable` component within the `tasktableshell` component, we can ensure that the necessary logic and state management is handled correctly.
          */}
-        <h1 className="ml-2">Bottles in cellar</h1>
+        <h1 className="ml-2">Consumed bottles</h1>
         <BottlesTable bottlesPromise={bottlesPromise} />
       </React.Suspense>
     </Shell>

@@ -86,6 +86,12 @@ export function MainNav() {
               </Link>
             </DropdownMenuItem>
             <DropdownMenuItem asChild>
+              <Link href="/b-s-consume">
+                {/* <PocketKnifeIcon className="mr-2 h-3 w-3" />  */}
+                Consume server
+              </Link>
+            </DropdownMenuItem>
+            <DropdownMenuItem asChild>
               <Link href="/consume">
                 {/* <PocketKnifeIcon className="mr-2 h-3 w-3" />  */}
                 Consume
