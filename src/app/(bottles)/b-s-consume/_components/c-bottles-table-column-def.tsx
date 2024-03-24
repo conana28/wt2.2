@@ -185,13 +185,13 @@ export function fetchBottlesTableColumnDefs(
       enableHiding: false,
     },
     {
-      accessorKey: "ocassion",
+      accessorKey: "occasion",
       header: ({ column }) => (
         <DataTableColumnHeader column={column} title="Ocassion" />
       ),
-      cell: ({ row }) => <div>{row.getValue("ocassion")}</div>,
+      cell: ({ row }) => <div>{row.getValue("occasion")}</div>,
       enableSorting: false,
-      enableHiding: false,
+      enableHiding: true,
     },
     {
       accessorKey: "id",
@@ -200,10 +200,6 @@ export function fetchBottlesTableColumnDefs(
           <DataTableColumnHeader column={column} title="Bottle Id" />
         </div>
       ),
-      // header: ({ column }) => (
-      //   <DataTableColumnHeader column={column} title="Bottle Id" />
-      // ),
-      // cell: ({ row }) => <div>{row.getValue("id")}</div>,
       cell: ({ row }) => (
         <div className="flex items-center justify-center">
           {row.getValue("id")}

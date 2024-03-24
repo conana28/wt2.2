@@ -73,12 +73,12 @@ export function CellarSearchForm({ searchTerm }: Props) {
   // 2. Define a submit handler.
   async function onSubmit(values: z.infer<typeof BottleSearchSchema>) {
     // form.reset();
-    console.log(values);
+    // console.log(values);
     setLoading(true);
     const btls = await searchBottles1(values);
-    console.log(btls);
+    // console.log(btls);
     if (btls && btls.bottlesWithNoteCount) {
-      setBottlesFound(btls.bottlesWithNoteCount);
+      setBottlesFound(btls.bottlesWithNoteCount); // Update context with matching bottles
     }
     setLoading(false);
   }

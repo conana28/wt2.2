@@ -16,9 +16,10 @@ import {
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
 import { BottleFormSchema } from "@/lib/schema";
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { WineContext } from "@/app/contexts/WineContext";
 import { addBottle } from "@/actions/bottle";
+import { is } from "date-fns/locale";
 
 type BottleFormValues = z.infer<typeof BottleFormSchema>;
 
@@ -26,7 +27,9 @@ interface BottleFormProps {
   id: number; // wine id
   onUpdate: (b: any) => void; // callback function to update bottles
 }
-
+function delay(ms: number) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
 export function BottleAddForm({ id, onUpdate }: BottleFormProps) {
   const { showAction, setShowAction, wine } = useContext(WineContext);
   const defaultValues: Partial<BottleFormValues> = {
@@ -40,9 +43,11 @@ export function BottleAddForm({ id, onUpdate }: BottleFormProps) {
     resolver: zodResolver(BottleFormSchema),
     defaultValues,
   });
+  const [isUpdating, setIsUpdating] = useState(false);
 
   async function onSubmit(data: BottleFormValues) {
-    console.log("Submit ", data);
+    console.log("Bottle add ", data);
+    setIsUpdating(true);
     // let b be an array of Bottle objects
     let b: (
       | {
@@ -93,125 +98,138 @@ export function BottleAddForm({ id, onUpdate }: BottleFormProps) {
       console.log("b ", b);
       onUpdate(b);
     }
-
+    // Simulate a delay if we are on localhost
+    if (
+      window.location.hostname === "localhost" ||
+      window.location.hostname === "127.0.0.1"
+    ) {
+      console.log("DELAY", isUpdating);
+      await delay(2000);
+    }
+    setIsUpdating(false);
     setShowAction("");
     form.reset();
   }
 
   return (
-    <Form {...form}>
-      <form
-        onSubmit={form.handleSubmit(onSubmit)}
-        className="space-y-4  sm:space-y-6 mb-4"
-      >
-        <div className="flex flex-row gap-4 ">
-          <div className="w-1/2">
-            <FormField
-              control={form.control}
-              name="vintage"
-              render={({ field }) => (
-                <FormItem>
-                  <FormLabel>Vintage</FormLabel>
-                  <FormControl>
-                    <Input
-                      type="number"
-                      {...field}
-                      className="text-lg sm:text-sm"
-                    />
-                  </FormControl>
-                  <FormMessage />
-                </FormItem>
-              )}
-            />
+    <div className="flex flex-col">
+      {isUpdating && (
+        <div className="text-red-500 text-xl animate-pulse">Updating...</div>
+      )}
+      <Form {...form}>
+        <form
+          onSubmit={form.handleSubmit(onSubmit)}
+          className="space-y-4  sm:space-y-6 mb-4"
+        >
+          <div className="flex flex-row gap-4 ">
+            <div className="w-1/2">
+              <FormField
+                control={form.control}
+                name="vintage"
+                render={({ field }) => (
+                  <FormItem>
+                    <FormLabel>Vintage</FormLabel>
+                    <FormControl>
+                      <Input
+                        type="number"
+                        {...field}
+                        className="text-lg sm:text-sm"
+                      />
+                    </FormControl>
+                    <FormMessage />
+                  </FormItem>
+                )}
+              />
+            </div>
+            <div className="w-1/2">
+              <FormField
+                control={form.control}
+                name="cost"
+                render={({ field }) => (
+                  <FormItem>
+                    <FormLabel>Cost</FormLabel>
+                    <FormControl>
+                      <Input
+                        type="number"
+                        {...field}
+                        className="text-lg sm:text-sm"
+                      />
+                    </FormControl>
+                    <FormMessage />
+                  </FormItem>
+                )}
+              />
+            </div>
           </div>
-          <div className="w-1/2">
-            <FormField
-              control={form.control}
-              name="cost"
-              render={({ field }) => (
-                <FormItem>
-                  <FormLabel>Cost</FormLabel>
-                  <FormControl>
-                    <Input
-                      type="number"
-                      {...field}
-                      className="text-lg sm:text-sm"
-                    />
-                  </FormControl>
-                  <FormMessage />
-                </FormItem>
-              )}
-            />
+          <div className="flex flex-row gap-4">
+            <div className="w-1/2">
+              <FormField
+                control={form.control}
+                name="rack"
+                render={({ field }) => (
+                  <FormItem>
+                    <FormLabel>Rack</FormLabel>
+                    <FormControl>
+                      <Input {...field} className="text-lg sm:text-sm" />
+                    </FormControl>
+                    <FormMessage />
+                  </FormItem>
+                )}
+              />
+            </div>
+            <div className="w-1/2">
+              <FormField
+                control={form.control}
+                name="shelf"
+                render={({ field }) => (
+                  <FormItem>
+                    <FormLabel>Shelf</FormLabel>
+                    <FormControl>
+                      <Input {...field} className="text-lg sm:text-sm" />
+                    </FormControl>
+                    <FormMessage />
+                  </FormItem>
+                )}
+              />
+            </div>
           </div>
-        </div>
-        <div className="flex flex-row gap-4">
-          <div className="w-1/2">
-            <FormField
-              control={form.control}
-              name="rack"
-              render={({ field }) => (
-                <FormItem>
-                  <FormLabel>Rack</FormLabel>
-                  <FormControl>
-                    <Input {...field} className="text-lg sm:text-sm" />
-                  </FormControl>
-                  <FormMessage />
-                </FormItem>
-              )}
-            />
-          </div>
-          <div className="w-1/2">
-            <FormField
-              control={form.control}
-              name="shelf"
-              render={({ field }) => (
-                <FormItem>
-                  <FormLabel>Shelf</FormLabel>
-                  <FormControl>
-                    <Input {...field} className="text-lg sm:text-sm" />
-                  </FormControl>
-                  <FormMessage />
-                </FormItem>
-              )}
-            />
-          </div>
-        </div>
 
-        <div className="flex flex-row gap-4">
-          <div className="w-1/2">
-            <FormField
-              control={form.control}
-              name="qty"
-              render={({ field }) => (
-                <FormItem>
-                  <FormLabel>Qty</FormLabel>
-                  <FormControl>
-                    <Input
-                      type="number"
-                      {...field}
-                      className="text-lg sm:text-sm"
-                    />
-                  </FormControl>
-                  <FormMessage />
-                </FormItem>
-              )}
-            />
+          <div className="flex flex-row gap-4">
+            <div className="w-1/2">
+              <FormField
+                control={form.control}
+                name="qty"
+                render={({ field }) => (
+                  <FormItem>
+                    <FormLabel>Qty</FormLabel>
+                    <FormControl>
+                      <Input
+                        type="number"
+                        {...field}
+                        className="text-lg sm:text-sm"
+                      />
+                    </FormControl>
+                    <FormMessage />
+                  </FormItem>
+                )}
+              />
+            </div>
           </div>
-        </div>
 
-        <div className="flex items-center justify-center space-x-4 ">
-          <Button
-            size="xs"
-            variant="secondary"
-            onClick={() => setShowAction("")}
-          >
-            Cancel
-          </Button>
-          <Button size="xs" type="submit">
-            Add
-          </Button>
-        </div>
-      </form>
-    </Form>
+          <div className="flex items-center justify-center space-x-4 ">
+            <Button
+              size="xs"
+              variant="secondary"
+              onClick={() => setShowAction("")}
+            >
+              Cancel
+            </Button>
+            <Button size="xs" type="submit">
+              Add
+            </Button>
+          </div>
+        </form>
+      </Form>
+    </div>
   );
 }

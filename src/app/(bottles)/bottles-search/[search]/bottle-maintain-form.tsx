@@ -36,6 +36,11 @@ import { format, set } from "date-fns";
 import { Calendar } from "@/components/ui/calendar";
 import { BottlesSearchContext } from "@/app/contexts/BottlesSearchContext";
 import { TBottle } from "@/types/bottle";
+// import { setTimeout } from "timers/promises";
+
+function delay(ms: number) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
 
 type BottleFormValues = z.infer<typeof BottleFormSchema1>;
 
@@ -82,6 +87,13 @@ export function BottleMaintainForm({
         alert("Something went wrong - Update Bottle");
         return;
       }
+      // Simulate a delay if we are on localhost
+      if (
+        window.location.hostname === "localhost" ||
+        window.location.hostname === "127.0.0.1"
+      ) {
+        await delay(2000);
+      }
       setIsUpdating(false);
       console.log("Updated bottle", result);
     }
@@ -96,6 +108,13 @@ export function BottleMaintainForm({
       updateBottlesFoundArray(updatedBottle, "A");
     } else {
       alert("Something went wrong - Add Bottle");
+    }
+    // Simulate a delay if we are on localhost
+    if (
+      window.location.hostname === "localhost" ||
+      window.location.hostname === "127.0.0.1"
+    ) {
+      await delay(2000);
     }
     setIsUpdating(false);
     setOpenDialog(false);
@@ -119,7 +138,8 @@ export function BottleMaintainForm({
   return (
     <Form {...form}>
       {isUpdating && (
-        <div className="text-primary text-xl  animate-pulse">Updating...</div>
+        // <div className="text-primary text-xl animate-none">Updating...</div>
+        <div className="text-yellow-500 text-xl animate-pulse">Updating...</div>
       )}
       <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
         <div className="flex flex-row gap-4">

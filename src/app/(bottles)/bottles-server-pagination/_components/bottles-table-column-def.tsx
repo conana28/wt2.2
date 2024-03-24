@@ -55,6 +55,8 @@ import { ScrollArea } from "@/components/ui/scroll-area";
 import { DataTableColumnHeader } from "@/components/data-table/data-table-column-header";
 
 import { getNotes } from "../_lib/n_actions";
+import { deleteBottle, consumeBottle } from "../_lib/b_actions";
+import ActionCell from "../../bottles-search/[search]/action-cell";
 
 const NoteCellComponent = ({ row }: { row: any }) => {
   const noteCount: number = row.getValue("noteCount") as number;
@@ -269,71 +271,110 @@ export function fetchBottlesTableColumnDefs(
     },
     {
       id: "actions",
-      cell: ({ row }) => (
-        <DropdownMenu>
-          <DropdownMenuTrigger asChild>
-            <Button
-              aria-label="Open menu"
-              variant="ghost"
-              className="flex size-8 p-0 data-[state=open]:bg-muted"
-            >
-              <DotsHorizontalIcon className="size-4" aria-hidden="true" />
-            </Button>
-          </DropdownMenuTrigger>
-          <DropdownMenuContent align="end" className="w-[160px]">
-            <DropdownMenuSub>
-              <DropdownMenuSubTrigger>Labels</DropdownMenuSubTrigger>
-              {/*<DropdownMenuSubContent>
-                 <DropdownMenuRadioGroup
-                  value={row.original.label}
-                  onValueChange={(value) => {
-                    startTransition(async () => {
-                      await updateTaskLabel({
-                        id: row.original.id,
-                        label: value as Task["label"],
-                      })
-                    })
-                  }}
-                >
-                  {tasks.label.enumValues.map((label) => (
-                    <DropdownMenuRadioItem
-                      key={label}
-                      value={label}
-                      className="capitalize"
-                      disabled={isPending}
-                    >
-                      {label}
-                    </DropdownMenuRadioItem>
-                  ))}
-                </DropdownMenuRadioGroup>
-              </DropdownMenuSubContent> */}
-            </DropdownMenuSub>
-            <DropdownMenuSeparator />
-            <DropdownMenuItem
-            // onClick={() => {
-            //   startTransition(() => {
-            //     row.toggleSelected(false)
+      cell: ({ row }) => {
+        const a = row.getValue("noteCount") as number;
 
-            //     toast.promise(
-            //       deleteTask({
-            //         id: row.original.id,
-            //       }),
-            //       {
-            //         loading: "Deleting...",
-            //         success: () => "Task deleted successfully.",
-            //         error: (err: unknown) => catchError(err),
-            //       }
-            //     )
-            //   })
-            // }}
-            >
-              Delete
-              <DropdownMenuShortcut>⌘⌫</DropdownMenuShortcut>
-            </DropdownMenuItem>
-          </DropdownMenuContent>
-        </DropdownMenu>
-      ),
+        const b = {
+          ...row.original,
+          noteCount: a,
+          wine: {
+            producer: row.original.wname,
+            wineName: "",
+            country: row.original.country,
+          },
+        };
+
+        return <ActionCell bottle={b} />;
+      },
+      // <ActionCell bottle={row.original} }/>,
     },
+    // {
+    //   id: "actions",
+    //   cell: ({ row }) => (
+    //     <DropdownMenu>
+    //       <DropdownMenuTrigger asChild>
+    //         <Button
+    //           aria-label="Open menu"
+    //           variant="ghost"
+    //           className="flex size-8 p-0 data-[state=open]:bg-muted"
+    //         >
+    //           <DotsHorizontalIcon className="size-4" aria-hidden="true" />
+    //         </Button>
+    //       </DropdownMenuTrigger>
+    //       <DropdownMenuContent align="end" className="w-[160px]">
+    //         <DropdownMenuSub>
+    //           <DropdownMenuSubTrigger>Labels</DropdownMenuSubTrigger>
+    //           {/*<DropdownMenuSubContent>
+    //              <DropdownMenuRadioGroup
+    //               value={row.original.label}
+    //               onValueChange={(value) => {
+    //                 startTransition(async () => {
+    //                   await updateTaskLabel({
+    //                     id: row.original.id,
+    //                     label: value as Task["label"],
+    //                   })
+    //                 })
+    //               }}
+    //             >
+    //               {tasks.label.enumValues.map((label) => (
+    //                 <DropdownMenuRadioItem
+    //                   key={label}
+    //                   value={label}
+    //                   className="capitalize"
+    //                   disabled={isPending}
+    //                 >
+    //                   {label}
+    //                 </DropdownMenuRadioItem>
+    //               ))}
+    //             </DropdownMenuRadioGroup>
+    //           </DropdownMenuSubContent> */}
+    //         </DropdownMenuSub>
+    //         <DropdownMenuSeparator />
+    //         <DropdownMenuItem
+    //           disabled={false}
+    //           onClick={() => {
+    //             startTransition(() => {
+    //               row.toggleSelected(false);
+
+    //               toast.promise(deleteBottle({ id: row.original.id }), {
+    //                 loading: "Deleting...",
+    //                 success: () => "Task deleted successfully.",
+    //                 error: (err: unknown) => catchError(err),
+    //                 position: "top-center",
+    //               });
+    //             });
+    //           }}
+    //         >
+    //           Delete
+    //           {/* <DropdownMenuShortcut>⌘⌫</DropdownMenuShortcut> */}
+    //         </DropdownMenuItem>
+    //         <DropdownMenuItem
+    //           onClick={() => {
+    //             startTransition(() => {
+    //               row.toggleSelected(false);
+
+    //               toast.promise(
+    //                 consumeBottle({
+    //                   id: row.original.id,
+    //                   consumed: new Date(),
+    //                 }),
+    //                 {
+    //                   loading: "Consuming...",
+    //                   success: () => "Bottle marked as consumed",
+    //                   error: (err: unknown) => catchError(err),
+    //                   position: "top-center",
+    //                 }
+    //               );
+    //             });
+    //           }}
+    //         >
+    //           Consume
+    //         </DropdownMenuItem>
+    //       </DropdownMenuContent>
+    //     </DropdownMenu>
+
+    //   ),
+    // },
   ];
 }
 
