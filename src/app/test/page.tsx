@@ -1,6 +1,7 @@
 import React from "react";
 import { UserButton } from "@clerk/nextjs";
 import { DropdownActions } from "./dropdown-actions";
+import { TestForm } from "./test-form";
 
 const page = async () => {
   return (
@@ -11,6 +12,7 @@ const page = async () => {
       <div className="mt-4">
         <DropdownActions />
       </div>
+      <TestForm />
     </div>
   );
 };

@@ -14,17 +14,22 @@ import {
   FormMessage,
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
+import { FloatingLabelInput } from "@/components/ui/floating-label-input";
 
 const formSchema = z.object({
   username: z.string().min(2, {
     message: "Username must be at least 2 characters.",
   }),
+  name: z.string().min(2, {
+    message: "name must be at least 2 characters.",
+  }),
 });
-interface TestFormProps {
-  dialogClose: () => void;
-}
+// interface TestFormProps {
+//   dialogClose: () => void;
+// }
 
-const TestForm: React.FC<TestFormProps> = ({ dialogClose }) => {
+// const TestForm: React.FC<TestFormProps> = ({ dialogClose }) => {
+const TestForm = () => {
   // 1. Define your form.
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
@@ -38,7 +43,7 @@ const TestForm: React.FC<TestFormProps> = ({ dialogClose }) => {
     // Do something with the form values.
     // ✅ This will be type-safe and validated.
     console.log(values);
-    dialogClose();
+    // dialogClose();
   }
 
   return (
@@ -56,6 +61,17 @@ const TestForm: React.FC<TestFormProps> = ({ dialogClose }) => {
               <FormDescription>
                 This is your public display name.
               </FormDescription>
+              <FormMessage />
+            </FormItem>
+          )}
+        />
+
+        <FormField
+          control={form.control}
+          name="name"
+          render={({ field }) => (
+            <FormItem>
+              <FloatingLabelInput {...field} id="name" label="Label" />
               <FormMessage />
             </FormItem>
           )}
