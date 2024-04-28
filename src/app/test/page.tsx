@@ -12,7 +12,7 @@ const page = async () => {
       <div className="mt-4">
         <DropdownActions />
       </div>
-      <TestForm />
+      <TestForm dialogClose={() => {}} />
     </div>
   );
 };

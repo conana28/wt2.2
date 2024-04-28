@@ -24,12 +24,12 @@ const formSchema = z.object({
     message: "name must be at least 2 characters.",
   }),
 });
-// interface TestFormProps {
-//   dialogClose: () => void;
-// }
+interface TestFormProps {
+  dialogClose: () => void;
+}
 
-// const TestForm: React.FC<TestFormProps> = ({ dialogClose }) => {
-const TestForm = () => {
+const TestForm: React.FC<TestFormProps> = ({ dialogClose }) => {
+  // const TestForm = () => {
   // 1. Define your form.
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
