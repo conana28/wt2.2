@@ -454,11 +454,10 @@ export async function deleteBottle1(id: number) {
   }
 }
 
+// Called by Cellar Search to return bottles that match the search criteria
 export async function searchBottles1(data: Inputs) {
-  // console.log(data);
+  // Check data against schema
   const result = BottleSearchSchema.safeParse(data);
-  // create a simple groupBy function
-
   if (!result.success) {
     return { success: false, error: result.error.format() };
   }
@@ -473,61 +472,147 @@ export async function searchBottles1(data: Inputs) {
   //       }
   //     : {};
 
-  let whereClause: Prisma.BottleWhereInput = {
-    wine: {
+  // let whereClause: Prisma.BottleWhereInput = {
+  //   wine: {
+  //     OR: [
+  //       {
+  //         producer: {
+  //           contains: result.data.search,
+  //           mode: "insensitive",
+  //         },
+  //       },
+  //       {
+  //         wineName: {
+  //           contains: result.data.search,
+  //           mode: "insensitive",
+  //         },
+  //       },
+  //       // countryCondition, // Use the countryCondition variable
+  //     ],
+  //     AND: [
+  //       {
+  //         country: {
+  //           contains: result.data.country,
+  //           mode: "insensitive",
+  //         },
+  //       },
+  //     ],
+  //   },
+  //   rack: {
+  //     contains: result.data.rack,
+  //     mode: "insensitive",
+  //   },
+  //   shelf: {
+  //     contains: result.data.shelf,
+  //     mode: "insensitive",
+  //   },
+  //   consume: null,
+  // };
+  // if (data.vintage !== "" && data.vintage !== undefined) {
+  //   whereClause.vintage = {
+  //     equals: parseInt(data.vintage),
+  //   };
+  // }
+
+  // console.log("whereClause", JSON.stringify(whereClause, null, 2));
+  try {
+    // console.log(JSON.stringify(whereClause, null, 2));
+    // const bottles = await prisma.bottle.findMany({
+    //   where: whereClause,
+
+    //   select: {
+    //     id: true,
+    //     vintage: true,
+    //     rack: true,
+    //     shelf: true,
+    //     cost: true,
+    //     wineId: true,
+    //     consume: true,
+    //     occasion: true,
+    //     wine: {
+    //       select: {
+    //         id: true,
+    //         producer: true,
+    //         wineName: true,
+    //         country: true,
+    //       },
+    //     },
+    //   },
+    //   orderBy: [
+    //     {
+    //       wine: {
+    //         producer: "asc",
+    //       },
+    //     },
+    //     {
+    //       wine: {
+    //         wineName: "asc",
+    //       },
+    //     },
+    //     {
+    //       vintage: "asc",
+    //     },
+    //   ],
+    // });
+
+    let myWhereClause: Prisma.BottleWhereInput = {
+      //
       OR: [
         {
-          producer: {
-            contains: result.data.search,
-            mode: "insensitive",
+          wine: {
+            producer: {
+              contains: result.data.search,
+              mode: "insensitive",
+            },
           },
         },
         {
-          wineName: {
-            contains: result.data.search,
-            mode: "insensitive",
+          wine: {
+            wineName: {
+              contains: result.data.search,
+              mode: "insensitive",
+            },
           },
         },
-        // countryCondition, // Use the countryCondition variable
       ],
       AND: [
         {
-          country: {
-            contains: result.data.country,
-            mode: "insensitive",
+          wine: {
+            country: {
+              contains: result.data.country,
+              mode: "insensitive",
+            },
           },
         },
       ],
-    },
-    rack: {
-      contains: result.data.rack,
-      mode: "insensitive",
-    },
-    shelf: {
-      contains: result.data.shelf,
-      mode: "insensitive",
-    },
-    consume: null,
-  };
-  if (data.vintage !== "" && data.vintage !== undefined) {
-    whereClause.vintage = {
-      equals: parseInt(data.vintage),
     };
-  }
-  try {
-    // console.log(JSON.stringify(whereClause, null, 2));
-    const bottles = await prisma.bottle.findMany({
-      where: whereClause,
+    // Vintage is optional
+    if (data.vintage !== "" && data.vintage !== undefined) {
+      myWhereClause.vintage = {
+        equals: parseInt(data.vintage),
+      };
+    }
+    // Rack is optional
+    if (data.rack !== "" && data.rack !== undefined) {
+      myWhereClause.rack = {
+        contains: data.rack,
+      };
+    }
+    // Shelf is optional
+    if (data.shelf !== "" && data.shelf !== undefined) {
+      myWhereClause.shelf = {
+        contains: data.shelf,
+      };
+    }
+    // Only show bottles that have not been consumed
+    myWhereClause.consume = null;
 
-      select: {
-        id: true,
-        vintage: true,
-        rack: true,
-        shelf: true,
-        cost: true,
-        wineId: true,
-        consume: true,
-        occasion: true,
+    // console.log("myWhereClause", JSON.stringify(myWhereClause, null, 2));
+
+    const bottles = await prisma.bottle.findMany({
+      where: myWhereClause,
+
+      include: {
         wine: {
           select: {
             id: true,
@@ -537,22 +622,9 @@ export async function searchBottles1(data: Inputs) {
           },
         },
       },
-      orderBy: [
-        {
-          wine: {
-            producer: "asc",
-          },
-        },
-        {
-          wine: {
-            wineName: "asc",
-          },
-        },
-        {
-          vintage: "asc",
-        },
-      ],
     });
+
+    // console.log("Bottles", bottles);
 
     if (!bottles) {
       console.error("Bottle - Something went wrong");
