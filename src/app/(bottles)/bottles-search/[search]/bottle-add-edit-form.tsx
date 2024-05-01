@@ -138,7 +138,7 @@ export function BottleAddEditForm({
             />
           </div>
           <div className="w-1/2">
-            {/* <FormField
+            <FormField
               control={form.control}
               name="cost"
               render={({ field }) => (
@@ -150,8 +150,8 @@ export function BottleAddEditForm({
                   <FormMessage />
                 </FormItem>
               )}
-            /> */}
-            <FormField
+            />
+            {/* <FormField
               control={form.control}
               name="cost"
               render={({ field }) => (
@@ -165,12 +165,12 @@ export function BottleAddEditForm({
                   <FormMessage />
                 </FormItem>
               )}
-            />
+            /> */}
           </div>
         </div>
         <div className="flex flex-row gap-4">
           <div className="w-1/2">
-            {/* <FormField
+            <FormField
               control={form.control}
               name="rack"
               render={({ field }) => (
@@ -182,9 +182,9 @@ export function BottleAddEditForm({
                   <FormMessage />
                 </FormItem>
               )}
-            /> */}
+            />
 
-            <FormField
+            {/* <FormField
               control={form.control}
               name="rack"
               render={({ field }) => (
@@ -193,10 +193,10 @@ export function BottleAddEditForm({
                   <FormMessage />
                 </FormItem>
               )}
-            />
+            /> */}
           </div>
           <div className="w-1/2">
-            <FormField
+            {/* <FormField
               control={form.control}
               name="shelf"
               render={({ field }) => (
@@ -210,8 +210,8 @@ export function BottleAddEditForm({
                   <FormMessage />
                 </FormItem>
               )}
-            />
-            {/* <FormField
+            /> */}
+            <FormField
               control={form.control}
               name="shelf"
               render={({ field }) => (
@@ -223,7 +223,7 @@ export function BottleAddEditForm({
                   <FormMessage />
                 </FormItem>
               )}
-            /> */}
+            />
           </div>
         </div>
 
